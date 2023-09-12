@@ -1,0 +1,2535 @@
+; Civilopedia.txt
+;	Notes: for Napoleonic Europe
+;     Keys:
+;       to add a game concept one must first add a Key for it.  these are of the form:
+;			GCON_Name
+;	    where Name contains only alpha-numerical symbols.
+;		these Keys are used to look up the game concept Name and Text.
+;       Keys are NOT translated.
+;       Keys for other items (units, techs, etc.) are set by Civ3Edit.
+;
+;	  Game concepts follow the form:
+;			#Key
+;			Name
+;			Text
+;		Links in game concepts follow the form:
+;           $LINK<Text=Key>
+;		the Text -- everything between the '<' and the '=' must be translated.
+;		the Key  -- everything between the '=' and the '>' must be a valid key
+;					for the link to work
+;
+;	  Descriptions follow the form:
+;			#Header
+;			Text
+;		the Header for descriptions must be in the form DESC_Key
+;		so, for the game concept: "Territory" that has the key "GCON_Territory",
+;		the Header should be "DESC_GCON_Territory"
+;		A complete list of all Civilopedia Keys is coming soon.
+;
+
+
+#GAME_CONCEPTS_KEYS
+GCON_Age_of_Science
+GCON_Agreements
+GCON_Air_Missions
+GCON_Airfields
+GCON_Armies
+GCON_Assimilation
+GCON_Barbarians
+GCON_Barricades
+GCON_Bombardment_in_Ports
+GCON_Colony
+GCON_Combat
+GCON_Commerce
+GCON_Conversion
+GCON_Collateral_Damage
+GCON_Corruption
+GCON_Craters
+GCON_Culture
+GCON_Disease
+GCON_Disorder
+GCON_Draft
+GCON_Embassies
+GCON_Enslavement 
+GCON_Espionage
+GCON_Espionage_Missions
+GCON_Experience
+GCON_Food
+GCON_Fortresses
+GCON_Golden_Age
+GCON_Governments
+GCON_Happy_Faces
+GCON_Hotkeys_Controls
+GCON_Hotkeys_Units
+GCON_Hurry_Production
+GCON_Keypad
+GCON_Landmark_Terrain
+GCON_Leaders
+GCON_Locked_Alliances
+GCON_Maintenance
+GCON_Maps
+GCON_Mobilization
+GCON_Moods
+GCON_Nationality
+GCON_Outposts
+GCON_Overpopulation
+GCON_Plague
+GCON_Plants
+GCON_Pollution
+GCON_Radar_Towers
+GCON_Radius
+GCON_Research
+GCON_Resistance
+GCON_ResourcesB
+GCON_ResourcesL
+GCON_ResourcesN
+GCON_ResourcesS
+GCON_Revolution
+GCON_Ruins
+GCON_Shields
+GCON_Short_Game_Modes
+GCON_Spaceship
+GCON_Specialists
+GCON_Stealth_Attack
+GCON_Strengths
+GCON_Terrain_Combat
+GCON_Territory
+GCON_Trade
+GCON_Transport
+GCON_Treasury
+GCON_Unit_Support
+GCON_Victory
+GCON_Volcanic_Eruptions
+GCON_War_Weariness
+GCON_We_Love_The_King_Day
+GCON_Worker_Jobs
+GCON_Worker_Jobs_Advanced
+GCON_ZOC
+
+
+#GAME_CONCEPTS
+
+#GCON_Enslavement 
+Enslavement
+^
+^
+^Enslavement allows a unit to potentially "enslave" a combatant (instead of killing it) when it wins a battle. A unit with the "enslave" capability has a 1/3 chance of enslaving a deafeated unit everytime it wins a battle. As soon as the battle is over, the game determines if the defeated unit is enslaved; if so, the unit is turned into another unit type (as specificed in the editor) and is immediately under the control of the victorious player. 
+^
+^The $LINK<Privateer=PRTO_Privateer> and the British $LINK<Man-O-War=PRTO_Man-O-War> have the Enslavement capability. 
+
+
+#GCON_Plants
+Power Plants
+^
+^
+^There are no [power plants] during the time of Napoleonic Europe -- and the people can breathe
+easier becuase of it!
+
+
+#GCON_Plague
+Plague
+^
+^
+^No outbreaks of the plague are expected to occur during play of this scenario.
+
+
+#GCON_Air_Missions
+Air Missions
+^
+^
+^There are no air missions in Napoleonic Europe. Aircraft are still a century away...
+
+
+#GCON_Barbarians
+Barbarians
+^
+^
+^Europe has no more barbarians by this time.
+
+
+#GCON_Hotkeys_Units
+Hotkeys: Unit Commands
+^
+^
+^{Settler / Worker Actions}
+^Build Road 						R
+^*   Road to							Ctrl-R
+^Build/Join city/colony				B
+^*   Road then Colony					Ctrl-B
+^Irrigate							I
+^*   Irrigate to city					Ctrl-I
+^Improve Nearest City					Shift-I
+^Improve Nearest City/Without Altering	Ctrl-Shift-I
+^Build Mine							M
+^Build Fortress/Barricade				Ctrl-F
+^Plant Forest						N
+^Clear Pollution/Forest/Jungle/Marsh		Shift-C
+^*   Clear all Forest					Shift-F
+^*   Clear all Wetlands					Shift-W
+^*   Clear all Damage					Shift-D
+
+^Automate Worker					A
+^Automate Worker (virgin terrain)		Shift-A
+
+
+#DESC_GCON_Hotkeys_Units
+^{General Unit Commands}
+^Hold (don't move)					Spacebar
+^Wait (until end of turn)				W
+^Fortify/Garrison/Sleep				F
+^Go to								G
+^*	Stack Go to						X, J
+^*	Stack Go to With Same Units			Ctrl-X, Ctrl-J
+^Disband							D
+^Load/unload						L
+^Explore							E
+^Pillage							Shift-P
+^Bombard							B
+^Sentry							Y
+^*	Sentry (Until Enemy Contact)			Shift-Y
+^
+^{Special Actions and Orders}
+^Upgrade Unit						U
+^*	Upgrade all Obsolete Units			Shift-U
+^Build Army							B
+^Hurry City Production					Ctrl-H
+
+
+
+#GCON_ZOC
+Zone of Control
+^
+^
+^Some military units have a [zone of control] that influences the eight squares surrounding the unit. This represents the
+unit's ability to project its combat power into surrounding areas. Such units attack enemies that enter the zone of control
+without initiating a full battle.
+^
+^The following military units have a zone of control in the Napoleonic Europe scenario:
+^* $LINK<Armies=PRTO_Army>
+^* $LINK<Line Cavalry=PRTO_Cavalry>
+^* $LINK<Prussian Cuirassiers=PRTO_Cuirassier>
+^* $LINK<British Household Cavalry=PRTO_Household_Cavalry>
+^* $LINK<Austrian Hussars=PRTO_Hussar>
+^* $LINK<French Guard Cavalry=PRTO_Imperial_Cavalry>
+^* $LINK<Ottoman Sipahi=PRTO_Sipahi>
+^* $LINK<Russian Cossacks=PRTO_Cossack>
+^* $LINK<French, Spanish, and Swedish Carabiniers=PRTO_Carabinier>
+^* $LINK<Shock Cavalry=PRTO_Shock_Cavalry>
+
+
+#GCON_Unit_Support
+Supporting Military Units
+^
+^
+^Generally, each military unit must be supported with one gold per turn from its $LINK<treasury=GCON_Treasury>.
+However, each form of $LINK<government=GCON_Governments> defers these costs for a certain number of units,
+depending upon how many towns, cities, or metros the civilization controls.
+^
+^{Government			Town	City		Metro}
+^Anarchy				  0		  0		  0
+^Monarchy				  2		  4		  8
+^Republic				  0		  0		  0
+
+
+#GCON_Governments
+Governments
+^
+^
+^There are three forms of government that you can use to control your civilization.
+Each has advantages and disadvantages. The type of government you use determines:
+^
+^How efficient your $LINK<workers=PRTO_Worker> are (how quickly they get their jobs done).
+^How much $LINK<Corruption and Waste=GCON_Corruption> affects your civilization.
+^The number of citizens you can $LINK<draft=GCON_Draft> per turn.
+^The number of military units that can be used as $LINK<military police=GCON_Moods>.
+^The number of military units you can have before you must $LINK<support=GCON_Unit_Support>
+them from your $LINK<treasury=GCON_Treasury>.
+^
+^The possible government types in this scenario are:
+^* $LINK<Anarchy=GOVT_Anarchy>
+^* $LINK<Monarchy=GOVT_Monarchy>
+^* $LINK<Republic=GOVT_Republic>
+^
+^
+^To change your form of government, you must have a $LINK<revolution=GCON_Revolution>.
+
+
+
+#GCON_Draft
+Draft
+^
+^ 
+^When a civilization develops $LINK<Nationalism=TECH_Nationalism> its citizens can be drafted into
+military service. Each city can draft some of its population each turn, depending upon the government currently in effect.
+^* A civilization in $LINK<Anarchy=GOVT_Anarchy> may not use the draft.
+^* A $LINK<Republic=GOVT_Republic> can draft [two] citizens per turn.
+^* A $LINK<Monarchy=GOVT_Monarchy> can draft [two] citizens per turn.
+^
+^To utilize the draft, press the "Draft" button on the City Display. You may only draft citizens from a city with
+^a population of 7 or higher.
+^
+^The draft produces the following $LINK<conscript=GCON_Experience> $LINK<Musketman=PRTO_Musketman>.
+^
+^However, drafting citizens will cause unhappiness in the city.
+
+
+
+#GCON_Maintenance
+Maintenance
+^
+^
+^Some city improvements must be maintained after they are built. This [maintenance] cost
+is paid from your $LINK<treasury=GCON_Treasury> once every turn.
+^
+^
+^{These buildings require one gold per turn.}
+^$LINK<Aqueduct=BLDG_Aqueduct>,
+$LINK<Bank=BLDG_Bank>,
+$LINK<Barracks=BLDG_Barracks>,
+$LINK<Courthouse=BLDG_Courthouse>,
+$LINK<Granary=BLDG_Granary>,
+$LINK<Harbor=BLDG_Harbor>,
+$LINK<Library=BLDG_Library>,
+$LINK<Marketplace=BLDG_Marketplace>,
+$LINK<Public School=BLDG_Police_Station>, and
+$LINK<Temple=BLDG_Temple>.
+^
+^{These require two gold per turn}
+^$LINK<Cathedral=BLDG_Cathedral>, 
+$LINK<Colosseum=BLDG_Colosseum>,
+$LINK<Hospital=BLDG_Hospital>,
+$LINK<Naval Academy=BLDG_Naval_Academy>,
+$LINK<University=BLDG_University>.
+
+
+
+
+#GCON_Combat
+Combat
+^
+^
+^There are only two types of combat in this scenario: ground/naval combat and bombardment.
+^[Ground/Naval combat] occurs when units of different civilizations try to occupy the same square.
+The two units trade blows until one of them loses its health bar and is destroyed.
+The winner may be damaged (its health bar is reduced). 
+^[Bombardment] occurs when a ranged unit, such as a cannon, attacks without entering the defender's square.
+Bombardment inflicts losses to the defender's health bar but never completely destroys them.
+Air bombardment is the same except the planes fly to the target and may be shot down on the way.
+^
+^{Repairing Damage}
+^A unit that takes damage in combat but survives can heal, adding one $LINK<block=GCON_Experience> per turn back to
+its health bar. To do so, it
+^* must be in friendly or neutral territory.
+^* must not move for a complete turn.
+^
+^{Repairing Faster}
+^A city with a $LINK<barracks=BLDG_Barracks> heals ground units completely in one turn.
+^A city with a $LINK<harbor=BLDG_Harbor> heals sea units completely in one turn.
+^A civilization with $LINK<Battlefield Medicine=BLDG_Battlefield_Medicine> heals in enemy territory.
+
+
+
+#GCON_Transport
+Transport
+^
+^
+^The $LINK<Troop Transport=PRTO_Galleon> (a naval unit) can carry or [transport] other units.
+^
+^The Troop Transport can be boarded from any shoreline
+by simply moving the rider onto the ship. They may also be boarded from inside a coastal city by right-clicking
+the unit in the garrison box and selecting from the menu, or using the Load command button when on the main map.
+
+
+#GCON_Spaceship
+Space Ship
+^
+There is no Space Ship building in Napoleonic Europe. The combustion engine has not even been invented yet!
+
+
+
+#GCON_Victory
+Victory Conditions
+^
+^ 
+^There are three ways to win this scenario:
+^
+^
+^{Domination}
+^Have 66% of the world's land surface within your $LINK<borders=GCON_Territory> as well as 66% of the world's population
+within your cities.
+This can be accomplished either by military measures or by $LINK<cultural=GCON_Culture> development
+(or, more likely, a combination of the two).
+^
+^
+^{Victory Points}
+^Be the first side to score 60,000 victory points.
+^
+^
+^{High Score at End}
+^Be the side with the highest score after time has run out. 
+
+#DESC_GCON_Victory
+^
+
+
+#GCON_Maps
+Maps
+^
+^
+^{Fog of Intelligence}
+^Since the start date of this scenario is 1800 AD, the game begins with the entire map known to all players.
+Nevertheless, areas that are not currently "seen" by your people have a soft gray veil over them, revealing the
+underlying terrain, but not all of the features (such as the presence or roads, irrigation, mines, etc.).
+^
+^So at any time, each and every square of the scenario map is either
+^* explored				in grayness
+^* seen				well lit
+^
+^
+^{World Maps} As civilizations explore the world and found new cities, they gather information and create a map of
+the world that is unique. For each civilization, it is comprised of the area its people currently see
+and the explored areas (as they were when last seen). This is called the civilization's [world map] and
+can be very valuable in negotiations with other, less knowledgeable, civilizations. You will be able to trade world
+maps after your civilization discovers $LINK<Map Making=TECH_Map_Making>.
+^
+^
+^{Territory Maps} Each civilization also keeps a [territory map] showing areas under its cultural influence only.
+These are less valuable in negotiations, but still of some worth.
+
+
+
+#GCON_Trade
+Trade and Trade routes
+^
+^ 
+^{Domestic Trade}
+^Domestic trade occurs automatically between cities of the same civilization that are [connected] to each other.
+Any tradable $LINK<resource=GCON_ResourcesN> within your territory that is connected to any city is shared
+by [all] connected cities. Every city that is connected to a resource has that resource in the appropriate box of the
+City Display.
+^ 
+^
+^{Foreign Trade}
+^A single resource icon is enough to supply the needs of an entire civilization. Excess resources may
+be traded to other civilizations if the capital cities of both civilizations are connected. You trade
+strategic and luxury resources with other civilizations during diplomatic negotiations.
+^
+^
+^{Trade Route Connections}
+Two cities are connected if any one of the following are true:
+^* there is a $LINK<road=GCON_Worker_Jobs> running between them, or if
+^* there are $LINK<harbors=BLDG_Harbor> in both cities and a visible water route between them.
+^
+^
+^[Water Routes]: In order to use a water trade route, your civilization must be able to safely traverse
+^every square of the route and this depends upon having
+$LINK<Map Making=TECH_Map_Making>,
+$LINK<Navigation=TECH_Navigation>, and/or
+$LINK<Magnetism=TECH_Magnetism>.
+^
+^
+^The only exception involves enemy territory: two cities are not connected if the only road that
+connects them passes through enemy territory, or if a harbor is blockaded by enemy naval forces.
+
+
+#GCON_ResourcesB
+Bonus Resources
+^
+^
+^[Bonus resources] are one of the types of $LINK<natural resources=GCON_ResourcesN>. These
+cannot be traded like $LINK<luxury=GCON_ResourcesL> or $LINK<strategic resources=GCON_ResourcesS>,
+but do provide bonuses to worked squares within a $LINK<city radius=GCON_Radius>.
+^
+^
+^{City Production Bonuses}
+^A citizen laborer working a bonus resource square gains extra $LINK<food=GCON_Food>,
+$LINK<shields=GCON_Shields>, and/or $LINK<commerce=GCON_Commerce>.
+^
+^{Types		Food	Shields	Commerce}
+^$LINK<Cattle=GOOD_Cattle>			+2		+1		+0
+^$LINK<Fish=GOOD_Fish>			+2		+0		+1
+^$LINK<Game=GOOD_Game>			+2		+0		+0
+^$LINK<Gold=GOOD_Gold>			+0		+0		+4
+^$LINK<Whales=GOOD_Whales>		+1		+1		+2
+^$LINK<Wheat=GOOD_Wheat>		+2		+0		+0
+
+
+
+#GCON_ResourcesN
+Natural Resources
+^
+^
+^In Napoleonic Europe there are 17 [natural resources] represented by various icons scattered around the world.
+These fall into three categories, [Bonus, Luxury,] and [Strategic].
+^
+^
+^[$LINK<Bonus Resources=GCON_ResourcesB>] give city production bonuses in worked squares within a city radius. Bonus resources
+cannot be traded to other cities or civilizations. Bonus resources are always visible in $LINK<explored=GCON_Maps> areas of the map. 
+^
+^
+^[$LINK<Luxury Resources=GCON_ResourcesL>] also give city production bonuses in squares worked by citizens.
+But they may also be traded along trade routes, and make content people happy in cities that receive them. Luxury
+resources are always visible on the map in explored areas.
+^
+^
+^[$LINK<Strategic Resources=GCON_ResourcesS>], like both the others, give bonuses to city production, but, like luxuries they can also be traded.
+Strategic resources are required for a city to build various military units and city improvements. Strategic resources 
+appear on the map when a Civilization Advance exposes their usefulness.
+^
+^
+^Luxury and Strategic Resources are referred to as {Tradable Resources.}
+
+
+
+#GCON_ResourcesS
+Strategic Resources
+^
+^
+^[Strategic Resources] are one of the types of $LINK<natural resources=GCON_ResourcesN>.
+When available to a city from foreign or domestic $LINK<trade=GCON_Trade>, strategic resources enable the
+construction of some units and city improvements.
+^
+^When a city "has" a strategic resource, it appears in the city's {Strategic Resource box}.
+^
+^
+^{City Production Bonuses}
+^Like all resources, strategic resources also provide city production bonuses to worked squares within a
+$LINK<city radius=GCON_Radius>.
+^
+^{Types			Food	Shields	Commerce}
+^$LINK<Horses=GOOD_Horses>			+0		+0		+1
+^$LINK<Iron=GOOD_Iron>				+0		+1		+0
+^$LINK<Saltpeter=GOOD_Saltpeter>			+0		+0		+1
+
+
+
+
+#GCON_Armies
+Armies
+^
+^
+^An Army is actually a group of ordinary units that move and fight together. To form an army, you must build the Army unit
+and then 'load' other units into it. You can load up to three units, though the $LINK<General Staff School=BLDG_Pentagon>
+increases this limit to four, if you have built it.
+^
+^
+^{Building an Army}
+^Armies can be built in cities that have the $LINK<Military Academy=BLDG_Military_Academy>
+or a $LINK<Leader=GCON_Leaders> in them. But you must have at least four cities for every army you create.
+^
+^
+^{In Battle}
+^An army uses one, some, or all its internal units to fight a battle, depending upon the course of the fight.
+^
+^{Spotting}
+^An army can "see" up to two squares away, due to its intrinsic scouts.
+
+
+
+#GCON_Corruption
+Corruption and Waste
+^
+^
+^[Corruption] is income lost to theft, embezzlement, and other illegal practices. [Waste] is shield production
+lost to inefficiency. If left unchecked, corruption and waste will significantly slow the development of your
+civilization. You can track the status of corruption and waste in your empire on the
+[City Display] and [Domestic Advisor].
+^
+^
+^{Causes}
+^In general, the farther a city is from its capital city, the more corruption and waste it experiences. Also the more cities
+in your empire, the higher rates of both, overall. Finally, the extent of corruption and waste is also affected by
+the system of $LINK<government=MENU_Governments> you are currently using.
+^
+^
+^{Solutions}
+^A $LINK<courthouse=BLDG_Courthouse> or a nearby $LINK<Forbidden Palace=BLDG_Forbidden_Palace>
+reduces corruption.
+^
+^Another solution, is to change your system of $LINK<government=GCON_Governments>. The more liberal the
+government, the less corruption and waste you experience.
+^
+^Being attached to your capital via road or harbor also reduces corruption and waste.
+^
+^$LINK<We Love The ____ Day=GCON_We_Love_The_King_Day> also reduces waste.
+
+
+
+#GCON_Hurry_Production
+Hurry Production
+^
+^
+^City construction projects (improvements or units) can be hurried to completion if necessary. 
+Use the "Hurry" button on the [City Display].
+^
+^
+^Under $LINK<Monarchy=GOVT_Monarchy> and $LINK<Republic=GOVT_Republic> you can pay overtime and hire temporary
+workers to complete a project. This costs gold from your treasury; the amount depends upon how much work remains
+to be done.
+^
+^
+^$LINK<Great leaders=GCON_Leaders> can also be used to hurry production.
+^
+^
+^You have [no] production if your civilization is in $LINK<Anarchy=GOVT_Anarchy>.
+
+
+#GCON_Pollution
+Pollution
+^
+^
+^Pollution is a problem usually associated with the Industrial Age. In this scenario it is only caused by
+large city populations.
+^
+^
+^{Global Warming}
+^If world pollution reaches sufficiently critical levels, there is a chance that global warming will occur.
+It can cause forests and jungles to disappear, and grasslands to become plains, and plains to become desert.
+World pollution is the sum of all city pollution, nuclear explosions, and meltdowns.
+^
+^
+^Polluted areas can be cleaned up by $LINK<workers=GCON_Worker_Jobs>.
+
+
+
+#GCON_Embassies
+Embassies
+^
+^
+^When a civilization learns $LINK<Writing=TECH_Writing>, it can begin to build its intelligence network.
+The first step is to build [embassies] in rival capital cities. That done, you can sign Right of Passage
+$LINK<agreements=GCON_Agreements> and Military Alliances against third parties.
+^
+^When your empire has developed a sense of $LINK<Diplomacy=TECH_Diplomacy>,
+you can engage in $LINK<Mutual Protection Pacts=GCON_Agreements> and Trade Embargoes against third parties.
+^
+^Embassies cost gold from your treasury to build, and diplomatic missions cost gold to execute.
+^
+^Build an embassy by double-clicking the capital city icon after you have learned Writing.
+
+
+
+
+
+#GCON_Worker_Jobs
+Worker Actions
+^ see also $LINK<Worker Actions (Advanced)=GCON_Worker_Jobs_Advanced>
+^
+^
+^{Irrigate (I)}
+^Increases $LINK<food=GCON_Food> output.
+^
+^{Build Mine (M)}
+^Increases $LINK<shield=GCON_Shields> output.
+^
+^{Build Road (R)}
+^Increases $LINK<commercial=GCON_Commerce> output and speeds movement.
+^
+^{Plant Forest (N)}
+^Adds a $LINK<forest=TERR_Forest> to a square.
+^
+^{Clear Forest (Shift-C)}
+^Removes $LINK<forest=TERR_Forest> and sends $LINK<shields=GCON_Shields> to nearest city.
+^
+^{Clear Wetlands (Shift-C)}
+^Removes $LINK<jungle=TERR_Jungle> or $LINK<marsh=TERR_Marsh>.
+^
+^{Clear Damage (Shift-C)} 
+^Removes $LINK<pollution=GCON_Pollution>, including $LINK<craters=GCON_Craters>. 
+^
+^{Build Fortress (Ctrl-F)}
+^Increases a square's $LINK<defensive value=GCON_Terrain_Combat> by 50%.
+^
+^{Build Barricade (Ctrl-F)}
+^Turns Fortress into Barricade, doubling the square's $LINK<defensive value=GCON_Terrain_Combat>.
+^
+^{Build Colony (B)}
+^$LINK<Colonies=GCON_Colony> are built atop $LINK<tradable resources=GCON_ResourcesN>. If $LINK<connected=GCON_Trade>
+to a city, a [colony] provides the resource to that city.
+^
+
+
+#DESC_GCON_Worker_Jobs
+^
+^
+^{Build Outpost (Ctrl-O)}
+^$LINK<Outposts=GCON_Outposts> eliminate fog of war in neutral or owned territory. They can be built after the discovery
+of $LINK<Masonry=TECH_Masonry>.
+^
+#GCON_Worker_Jobs_Advanced
+Worker Actions (Advanced)
+^ see also $LINK<Worker Actions=GCON_Worker_Jobs>
+^
+^
+^{Road to (Ctrl-R)}
+^Builds a road to a particular destination.
+^
+^{Build Road Then Colony (Ctrl-B)}
+^The worker builds a road to a particular destination and then builds a $LINK<colony=GCON_Colony>
+at the destination.
+^
+^{Automate (A)}
+^Causes control of the worker to be relinquished while it performs automated tasks.
+^
+^{Automate: Build Trade Network (Ctrl-N)}
+^Automates the worker, giving it the task of linking all cities to your capital city.
+^
+^{Automate: Irrigate to Nearest City (Ctrl-I)}
+^Automates the worker, giving it the task of irrigating the nearest city.
+^
+^{Automate: Clear Forest (Shift-F)}
+^Automates the worker, giving it the task of clearing all nearby forests.
+^
+^{Automate: Clear Wetlands (Shift-W)}
+^Automates the worker, giving it the task of clearing all nearby jungle and/or marsh.
+^
+^{Automate: Clear Damage (Shift-D)}
+^Automates the worker, giving it the task of clearing all nearby pollution, including $LINK<craters=GCON_Craters>.
+^
+^{Automate: This City Only (Shift-I)}
+^Automates the worker, allowing it to perform automated tasks to improve the nearest city.
+
+
+
+#GCON_Moods
+Citizen moods
+^
+^
+^Each citizen is either [happy, content], or [unhappy].
+^
+^{What Makes 'em Sad?}
+^* $LINK<Overpopulation=GCON_Overpopulation>. 
+^* $LINK<Forced labor=GCON_Hurry_Production>.
+^* $LINK<Draft=GCON_Draft>.
+^* $LINK<War weariness=GCON_War_Weariness>.
+^
+^{What Makes 'em Glad?}
+^To combat unhappiness in your cities you can build improvements or take actions that produce
+happy or content $LINK<faces=GCON_Happy_Faces>. Each happy face changes the mood of one citizen from content to happy; each
+content face alters a citizen from unhappy to content.
+^
+^* Build a $LINK<temple=BLDG_Temple>, $LINK<colosseum=BLDG_Colosseum>, or $LINK<cathedral=BLDG_Cathedral>.
+^* Bring assorted $LINK<luxuries=GCON_ResourcesL> into the city.
+^* Convert some citizens to $LINK<entertainers=GCON_Specialists>.
+^* Increase funding for entertainment using the Entertainment slider on the Domestic Advisor.
+^* Garrison military units in the city (Military Police).
+^
+^A city in which more people are unhappy than happy falls into $LINK<civil disorder=GCON_Disorder>.
+Content citizens and specialists are ignored.
+
+
+
+#GCON_War_Weariness
+War Weariness
+^
+^
+^During times of war, citizens living under a $LINK<Republic=GOVT_Republic> 
+become [war weary] and $LINK<unhappy=GCON_Moods> as a result.
+^
+^When [you] initiate the conflict your people will tolerate it for a while, but then may become quite unhappy.
+When someone else declares the war, especially a traditional enemy, your people are more forgiving.
+Carrying on a defensive war, that is keeping your troops at home, is more tolerable than offensive campaigns.
+^
+^The only way to end [war weariness] is to stop the war. You can use all your normal tricks to
+$LINK<make 'em happier=GCON_Moods>, but the war weariness remains until the war stops.
+
+
+
+#GCON_Research
+Scientific Research
+^
+^
+^Your civilization is constantly striving to learn about the world, science, invention, and creativity.
+Its ability to succeed at these pursuits depends in large measure upon your allocation of revenue to science.
+You set the allocation on the [Domestic Advisor] by sliding the science slider left or right to decrease
+or increase (respectively) the amount of your tax revenue that you divert into research. By doing this,
+you determine the percentage of each city's income that will be poured into research.
+^
+^At the start of each turn, the science output of each city is added to the research project currently
+in progress, eventually resulting in the discovery of a new $LINK<Civilization Advance=MENU_Technologies>.
+^
+^To increase the science production in only one city, you can convert a citizen or two to a $LINK<scientist=GCON_Specialists>.
+^
+^Finally, the science output of individual cities -- and the empire overall, in some cases --
+can be dramatically increased by building some improvements and wonders in those cities, such as:
+^	$LINK<Libraries=BLDG_Library>
+^	$LINK<Universities=BLDG_University>
+
+
+
+#GCON_Specialists
+Specialists
+^
+^
+^It is sometimes necessary to fine-tune a city's production. To do so, you'll want specialists.
+Specialists do not work in the city radius so they don't contribute to city production of food or commerce.
+Instead, they produce extra happy faces, enhance scientific research, tax revenue, or shield production, or
+help control corruption.
+^
+^
+^{Entertainers}
+^An entertainer produces one $LINK<happy face=GCON_Happy_Faces>.
+^
+^{Scientists}
+^A scientist produces extra $LINK<scientific research=GCON_Research>.
+^
+^{Tax Collector}
+^A tax collector produces extra $LINK<tax revenue=GCON_Commerce>.
+^
+^{Police Officers}
+^Once $LINK<Nationalism=TECH_Nationalism> has been researched, a police officer can be used to help keep a
+lid on $LINK<corruption=GCON_Corruption> in a city.
+^
+^
+^To create one of these specialists, on the [City Display], click any square currently being worked;
+the production icons disappear and an Entertainer appears among the population. If you wanted an entertainer,
+you're done. If you wanted a different specialist, click on the entertainer to cycle through all the
+specialists. Note that Police Officers are not available until Nationalism has been discovered.
+
+
+
+#GCON_Airfields
+Airfields
+^
+^
+^Airfields [cannot be built] in Napoleonic Europe.
+
+
+#GCON_Radar_Towers
+Radar Towers
+^
+^
+^Radar Towers [cannot be built] in Napoleonic Europe.
+
+
+#GCON_Short_Game_Modes
+Short Game Modes
+^
+^
+^Short Game Modes [do not apply] in this scenario. 
+#DESC_GCON_Short_Game_Modes
+^
+
+#GCON_Stealth_Attack
+Stealth Attack
+^
+^
+^No units have the [Stealth attack] capability in Napoleonic Europe.
+
+
+#GCON_Outposts
+Outposts
+^
+^
+^Outposts eliminate fog of war. To construct an Outpost, move a worker to any land tile in
+neutral or owned territory and select the Build Outpost unit action. Construction of the
+Outpost consumes the worker. The range of vision for the Outpost is 2 tiles on flat terrain,
+3 on hills and 4 on mountains. Outposts can only be used by the player who created them. If
+an Outpost falls within the territory of any other civilization, it will be destroyed. Outposts
+can only be built in a tile that is empty, has a mine, irrigation or a road. You cannot build
+an Outpost on a tile with a Colony. The "Build Outpost" unit-action becomes available after
+the Masonry advance is researched.
+
+
+
+
+; End Game Concepts_______________________________________________________________________________End Game Concepts
+
+
+
+
+
+
+; Units__________________________________________________________________________________________________________ Units
+
+#PRTO_Cossack
+^
+^
+^The Russian special unit, [Cossacks] take the place of $LINK<cavalry=PRTO_Cavalry>. The [Cossack] is a fast moving unit that can [withdraw] from combat if losing the fight (unless fighting another fast unit, of course).
+^
+^A Russian city must have both $LINK<horses=GOOD_Horses> and $LINK<saltpeter=GOOD_Saltpeter> in its
+$LINK<Strategic Resource=GCON_ResourcesS> box to build cossacks.
+
+#PRTO_Musketeer
+^
+^
+^[French Musketeers] are not available in this scenario.
+
+
+#PRTO_Hussar
+^
+^
+^[Austrian Hussars] move quickly and will [withdraw] from combat if they are losing (unless fighting another fast unit).
+^An Austrian city must have $LINK<horses=GOOD_Horses> and $LINK<saltpeter=GOOD_Saltpeter> in its $LINK<Strategic Resource=GCON_ResourcesS> box to
+build a Hussar.
+#DESC_PRTO_Hussar
+^
+^
+^Light cavalry has been used in warfare since the domestication of horses, but in eastern Europe, Hungarian and Croat scouts earned a 
+reputation for being elite scouts and deadly raiders. Hussars were the result of other European nations' attempts to duplicate this sort
+of unit. Hussar uniforms are elaborate and dramatically colored, and becoming a hussar is often a great honor or awarded to those of 
+noble birth. They were typically armed with straight cavalry swords, although towards the end of the 18th century hussars often carried 
+pistols as well.
+
+
+#PRTO_Imperial_Cavalry
+^
+^
+^French [Guard Cavalry] are extremely powerful when attacking. They move quickly and will [withdraw] from
+combat if they are losing (unless fighting another fast unit).
+^A French city must have $LINK<horses=GOOD_Horses> and $LINK<saltpeter=GOOD_Saltpeter> in its $LINK<Strategic
+Resource=GCON_ResourcesS> box to build an Guard Cavalry unit.
+#DESC_PRTO_Imperial_Cavalry
+^
+^
+^French cavalry of the Napoleonic era reflected the might of the army. Proud
+and powerful heavily armored cuirassiers, carabiniers and Garde Grenadiers a
+Cheval, redefined the cavalry charge, and instilled fear in the hearts of
+all who faced them.
+
+
+#PRTO_Household_Cavalry
+^
+^
+^British [Household Cavalry] are powerful attackers that move quickly and will [withdraw] from
+combat if they are losing (unless fighting another fast unit).
+^An British city must have $LINK<horses=GOOD_Horses> and $LINK<saltpeter=GOOD_Saltpeter> in its $LINK<Strategic
+Resource=GCON_ResourcesS> box to build a Household Cavalry unit.
+#DESC_PRTO_Household_Cavalry
+^
+^
+^There were two distinct branches of British heavy cavalry during the
+Napoleonic era: the household regiments and the heavy dragoons. The
+Household units consisted of the Life Guards and the Royal Horse Guards.
+These heavy cavalry units were used sparingly during the early years of the
+Napoleonic wars, but came to prominence after 1812 (and especially at the
+Battle of Waterloo). These heavy units were used as "shock" troops to 
+bolster in a wavering line or to charge and shatter an enemy formation.
+
+
+#PRTO_Cuirassier
+^
+^
+^Prussian [Cuirassier] are powerful attackers that move quickly and will [withdraw] from
+combat if they are losing (unless fighting another fast unit).
+^A Prussian city must have $LINK<horses=GOOD_Horses> and $LINK<saltpeter=GOOD_Saltpeter> in its $LINK<Strategic
+Resource=GCON_ResourcesS> box to build a Cuirassier.
+#DESC_PRTO_Cuirassier
+^
+^
+^"Cuirass" refers to a type of torso armor consisting of a back and breast plate. Prussian Cuirassiers were
+valiant cavalry soldiers, equally strong on both the attack and on the defense.
+
+#PRTO_Light_Lancer
+^
+^
+^[Light Lancers] are fast and unarmored cavalry, which excel at raiding and reconnaissance. They will [withdraw] from
+combat if they are losing (unless fighting another fast unit).
+^A city must have $LINK<horses=GOOD_Horses> in its $LINK<Strategic
+Resource=GCON_ResourcesS> box to build a Light Lancer.
+#DESC_PRTO_Light_Lancer
+^
+^
+^Light Lancers were common light cavalry in the Napoleonic Era, which could provide screening or intelligence for other forces. They could also prey on supply lines or weakened units.
+
+#PRTO_Akinci
+^
+^
+^[Akinci] are exceptionally fast but weak cavalry, which excel at raiding and reconnaissance. They will [withdraw] from
+combat if they are losing (unless fighting another fast unit).
+^An [Ottoman], [Berber], or [Egyptian] city must have $LINK<horses=GOOD_Horses> in its $LINK<Strategic
+Resource=GCON_ResourcesS> box to build Akinci.
+#DESC_PRTO_Akinci
+^
+^
+^Akinci are derived from Ottoman semi-feudal levies in the Timariot system. The Akinci are distinct from the better-trained of the Sipahi, and suffer from ill discipline and poor equipment.
+
+#PRTO_Lancer
+^
+^
+^[Lancers] are fast and light Neapolitan cavalry. While they excel at raiding and scouting, they can hold their own offensively. They will [withdraw] from
+combat if they are losing (unless fighting another fast unit).
+^A Neapolitan city must have $LINK<horses=GOOD_Horses> and $LINK<iron=GOOD_Iron> in its $LINK<Strategic
+Resource=GCON_ResourcesS> box to build an Lancer.
+#DESC_PRTO_Light_Lancer
+^
+^
+^Neapolitan lancers were slightly more armored than Light Lancers, giving them a bit more of a punch.
+
+#PRTO_Chasseur
+^
+^
+^[Chasseurs] are fast and light French cavalry. Chasseurs have stronger armor than typical $LINK<Light Lancers=PRTO_Light_Lancer>. They will [withdraw] from
+combat if they are losing (unless fighting another fast unit).
+^A French city must have $LINK<horses=GOOD_Horses> and $LINK<iron=GOOD_Iron> in its $LINK<Strategic
+Resource=GCON_ResourcesS> box to build a Chasseur.
+#DESC_PRTO_Chasseur
+^
+^
+^French chasseurs were a moderately light cavalry suitable for a variety of uses when supported.
+
+#PRTO_Carabinier
+^
+^
+^[Carabiniers] powerful French line cavalry. Chasseurs have stronger armor than typical $LINK<Light Lancers=PRTO_Light_Lancer>. They will [withdraw] from
+combat if they are losing (unless fighting another fast unit).
+^A French city must have $LINK<horses=GOOD_Horses>, $LINK<saltpeter=GOOD_Saltpeter>, and $LINK<iron=GOOD_Iron> in its $LINK<Strategic
+Resource=GCON_ResourcesS> box to build a Chasseur.
+#DESC_PRTO_Carabinier
+^
+^
+^French Carabiniers were selected from the best and tallest of French line cavalry.
+
+#PRTO_Landwehr
+^
+^
+^[Landwehrs] are Prussian mounted militiamen. Designed to defend Prussia from invasion, they have high mobility. They will [withdraw] from
+combat if they are losing (unless fighting another fast unit).
+^A Prussian city must have $LINK<horses=GOOD_Horses> in its $LINK<Strategic
+Resource=GCON_ResourcesS> box to build a Landwehr unit.
+#DESC_PRTO_Light_Lancer
+^
+^
+^Landwehr were undisciplined Prussian cavalry, with little skill and less training.
+
+#PRTO_Dragoon
+^
+^
+^[Dragoons] are mounted infantry. They have strong offensive potential and solid defense, but are expensive to train. They will [withdraw] from
+combat if they are losing (unless fighting another fast unit).
+^A city must have $LINK<horses=GOOD_Horses>, $LINK<saltperer=GOOD_Saltpeter>, and $LINK<horses=GOOD_Iron> in its $LINK<Strategic
+Resource=GCON_ResourcesS> box to build a Dragoon.
+#DESC_PRTO_Dragoon
+^
+^
+^Dragoons were flexible mounted riflemen, used for rapid reinforcement and filling gaps in battle.
+
+#PRTO_Royal_Dragoon
+^
+^
+^[Royal Dragoons] are mounted, elite British infantry. They have strong offense and defense. They will [withdraw] from
+combat if they are losing (unless fighting another fast unit).
+^A British city must have $LINK<horses=GOOD_Horses>, $LINK<saltperer=GOOD_Saltpeter>, and $LINK<horses=GOOD_Iron> in its $LINK<Strategic
+Resource=GCON_ResourcesS> box to build a Royal Dragoon.
+#DESC_PRTO_Dragoon
+^
+^
+^Royal Dragoons were the most skilled of Britain's mounted riflemen, used for rapid reinforcement and filling gaps in battle.
+
+#PRTO_Shock_Cavalry
+^
+^
+^[Shock Cavalry] are elite, well-armored cavalry. Designed to punch through enemy lines, they are powerful offensively. However, shock cavalry are highly vulnerable to counterrattack. They will [withdraw] from
+combat if they are losing (unless fighting another fast unit).
+^A city must have $LINK<horses=GOOD_Horses>, $LINK<saltperer=GOOD_Saltpeter>, and $LINK<horses=GOOD_Iron> in its $LINK<Strategic
+Resource=GCON_ResourcesS> box to build Shock Cavalry.
+#DESC_PRTO_Shock_Cavalry
+^
+^
+^Shock Cavalry were well-trained units selected from the best of European cavalry. They were invaluable to large offensive action.
+
+#PRTO_Horse_Guards
+^
+^
+^[Horse Guards] are elite defensive $LINK<Danish=RACE_CELTS> cavalry. Unlike $LINK<Line Cavalry=PRTO_Line_Cavalry>, they focus on defensive strength at the expense of attack. Horse Guards have an extra hitpoint because of their elite training. They will [withdraw] from
+combat if they are losing (unless fighting another fast unit).
+^A Danish city must have $LINK<horses=GOOD_Horses> in its $LINK<Strategic
+Resource=GCON_ResourcesS> box to build a Chasseur.
+#DESC_PRTO_Horse_Guards
+^
+^
+^Danish Horse Guards served a ceremonial and defensive role, but also fought as typical $LINK<Cuirassiers=PRTO_Cuirassier>.
+
+;   ____________________________________________GUNPOWDER FOOT UNITS_____________________________________________
+
+
+#PRTO_Musketman
+^
+^
+^The [Musketman] is the first gunpowder unit. In this scenario it represents poorly trained
+and poorly led musket-armed infantry with little [esprit de corps].
+
+
+
+#PRTO_Rifleman
+^
+^
+^[Musket Infantry] are adequately trained musket-armed infantry units with a good degree of
+[elan] due to nationalisitic fervor. Musket Infantry are good defensively, but lack
+"punch" on the offensive.
+#DESC_PRTO_Rifleman
+^
+^
+^Musket infantry of the Napoleonic era were armed with a muzzle-loading, smoothbore musket that fired a round lead ball
+approximately one-half inch in diameter. The soldiers were grouped in massed formations to maximize the firepower of
+the relatively short-ranged weapons and for easier control of the formation on the field of battle. As a general rule,
+most armies of the time used a "battleline" composed of two ranks (parallel lines) of infantry. Although rifled muskets
+had been recently invented (and were in used in limited numbers by some armies), Napoleon opted not to use them due to
+their longer reload times.
+
+
+
+#PRTO_Soldado
+^
+^
+^The [Soldados] are the Napoleonic era musket-armed infantry units of
+$LINK<Spain=RACE_Spanish>. 
+^
+^A city must have $LINK<saltpeter=GOOD_Saltpeter> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a Soldado.
+#DESC_PRTO_Soldado
+^
+^    
+^"Soldado" means soldier, and although Spanish infantry during the Napoleonic Era was not considered excellent by
+most accounts, when it came time to wage a war of resistance in 1808, the Spanish Soldado proved that national
+pride and pluck has its virtues.
+
+
+
+#PRTO_Sekhan
+^
+^
+^[Sekhans] are the Napoleonic era musket-armed infantry units of the
+$LINK<Ottoman Empire=RACE_Ottomans>. 
+^
+^A city must have $LINK<saltpeter=GOOD_Saltpeter> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a Sekhan.
+#DESC_PRTO_Sekhan
+^
+^    
+^The Sekhan Ottoman infantry were semi-permanent troops raised by provincial governors. While some Sekhan units were
+well-trained and highly skilled in battle (almost the equal of the $LINK<Jannisseries=PRTO_Janissary>), most were
+actually poorly trained.
+
+
+
+#PRTO_Grenzer
+^
+^
+^[Grenzers] are the Napoleonic era musket-armed infantry units of
+$LINK<Austria=RACE_AUSTRIA>. 
+^
+^A city must have $LINK<saltpeter=GOOD_Saltpeter> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a Grenzer.
+#DESC_PRTO_Grenzer
+^
+^    
+^Grenzers were Austrian light infantry originally mustered in Croatia. Grenzers were promised a land entitlement
+in return for protecting border ("Grenze") areas against the Turks. Battalions of "Grenzinfanterie" were used as
+skirmishers, but they often fought in closed order.
+
+
+
+#PRTO_Fusilier
+^
+^
+^[Fusiliers] are the Napoleonic era musket-armed infantry units of
+$LINK<Prussia=RACE_GERMANS>. 
+^
+^A city must have $LINK<saltpeter=GOOD_Saltpeter> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a Fusilier.
+#DESC_PRTO_Fusilier
+^
+^    
+^The first Prussian Fusilier units were comprised of artillery-trained soldiers armed with flintlock "fusils" that
+did not need a burning match, thus reducing the danger of accidental powder explosions. Fusiliers were converted
+into regular line infantry when the flintlock musket became standard issue. In the Prussian army, Fusiliers were
+often considered second-rate soldiers, culled from the youngest and least trained.
+
+
+#PRTO_Jaeger
+^
+^
+^[Jaegers] are the Napoleonic era musket-armed infantry units of
+$LINK<Imperial Russia=RACE_RUSSIAN>. 
+^
+^A city must have $LINK<saltpeter=GOOD_Saltpeter> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a Jaeger.
+#DESC_PRTO_Jaeger
+^
+^    
+^"Jaeger" is a Prussian name for a hunter. In the Prussian army, elite light infantry were typically recruited
+among professional foresters and game wardens. The term was used by other nationalites as well, like the
+Russians, whose Jaeger infantry were decent soldiers, good on both the attack and on the defense.
+
+
+#PRTO_Redcoat
+^
+^
+^[Redcoats] are the Napoleonic era musket-armed infantry units of
+$LINK<Britain=RACE_ENGLISH>. 
+^
+^A city must have $LINK<saltpeter=GOOD_Saltpeter> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a Redcoat.
+#DESC_PRTO_Redcoat
+^
+^    
+^British infantry of the Napoleonic era was famed for its red uniforms, a
+color that not only was easily recognizable on the battlefield, but also
+represented the power and quality of the men who wore them. British redcoat
+infantry were excellent on the attack and defense.
+
+
+#PRTO_Voltigeur
+^
+^
+^[Voltigeurs] are the musket-armed infantry units of Napoleonic
+$LINK<France=RACE_FRENCH>. 
+^
+^A city must have $LINK<saltpeter=GOOD_Saltpeter> in its $LINK<Strategic Resource=GCON_ResourcesS> box to build a Voltigeur.
+#DESC_PRTO_Voltigeur
+^
+^    
+^The French Voltigeur were light infantry, well-trained, often elite, with a very high morale. The Voltigeur
+were excellent on the attack and just as formidible holding a line.
+
+
+
+#PRTO_Imperial_Guard
+^
+^
+^[Imperial Guard] infantry units represent the elite soldiers of France.
+Imperial Guard are powerful units - whether attacking or defending.
+^
+^To represent its extra training and skill, this unit receives an additional Hit Point
+on its Health Bar.
+#DESC_PRTO_Imperial_Guard
+^
+^   
+^Every army during the Napoleonic Era had its elite forces. For the French,
+the Imperial Guard were the pride of the battlefield. Credited with winning
+many battles, French elite infantry -- the "Old Guard", "Middle Guard" and
+"Young Guard" -- was comprised of seasoned veterans that could be relied upon to
+carry the day.
+
+
+#PRTO_Lifeguard
+^
+^
+^[Lifeguard] infantry units represent the highly trained soldiers of Britain.
+Lifeguard are powerful units - whether attacking or defending.
+^
+^To represent its extra training and skill, this unit receives an additional Hit Point
+on its Health Bar.
+#DESC_PRTO_Lifeguard
+^
+^   
+^Every army during the Napoleonic Era had its elite forces. For the British,
+the soldiers of the Lifeguard were well-trained and excellent fighters,
+dedicated to preserving the honor and power of the British Empire.
+
+
+
+#PRTO_Guard
+^
+^
+^[Guard] infantry units represent the elite soldiers of Imperial Russia.
+Guard are powerful units - whether attacking or defending.
+^
+^To represent its extra training and skill, this unit receives an additional Hit Point
+on its Health Bar.
+#DESC_PRTO_Guard
+^
+^   
+^Every army during the Napoleonic Era had its elite forces. For the Russians,
+the Guard Grenadier battalions were excellent soldiers, stalwart, hearty
+veterans capable of both a valiant attack or a stout defense.
+
+
+
+#PRTO_Janissary
+^
+^
+^[Janissary] infantry units represent the old guard of the Ottoman Empire. ALthough they retain their "elite" status, their outdated equipment and training make them a poor substitute for modern infantry.
+^
+^To represent its extra training and skill, this unit receives an additional Hit Point
+on its Health Bar.
+#DESC_PRTO_Janissary
+^
+^   
+^The Janissaries were an elite corps in the service of the Ottoman Empire. They were composed of war captives and
+Christian youths, converted to Islam, pressed into service, and trained under the strictest discipline. Over time, the Janissaries became a highly conservative institution, unwilling to accept much-needed reforms.
+
+
+#PRTO_Miquelet
+^
+^
+^[Miquelet] are Iberian militia conscripted to defend their homeland. They are skilled at interdicting enemy forces, but lack strong defense.
+#DESC_PRTO_Miquelet
+^
+^
+^Musket infantry of the Napoleonic era were armed with a muzzle-loading, smoothbore musket that fired a round lead ball
+approximately one-half inch in diameter. The soldiers were grouped in massed formations to maximize the firepower of
+the relatively short-ranged weapons and for easier control of the formation on the field of battle. As a general rule,
+most armies of the time used a "battleline" composed of two ranks (parallel lines) of infantry. Although rifled muskets
+had been recently invented (and were in used in limited numbers by some armies), Napoleon opted not to use them due to
+their longer reload times.
+
+#PRTO_Marine
+^
+^
+^[Marine] infantry units are skilled attacking units capable of attacking [[amphibiously]]. They lack defensive strength, but make up for it with their high attack.
+#DESC_PRTO_Marine
+^
+^   
+^Marines in the Napoleonic Era were essential for invasions of islands and coastal areas.
+
+
+#PRTO_Line_Infantry
+^
+^
+^[Line Infantry] are well-trained Napoleonic infantry, with effective offense and defense.
+#DESC_PRTO_Line_Infantry
+^
+^
+^Line infantry are the standard elite infantry of the Napoleonic Era.
+
+#PRTO_Grenadier
+^
+^
+^[Grenadiers] are well-trained Austrian infantry, with well-rounded traits and a ranged attack.
+#DESC_PRTO_Grenadier
+^
+^
+^Grenadiers provided the backbone of the Austrian army in this era.
+
+
+#PRTO_Nizam_I_Cedid
+^
+^
+^[Nizam-I Cedid] infantry units are the newly-minted elites of the Ottoman Empire. They replaced the Janissaries as the preeminent attacking unit.
+^
+^To represent its extra training and skill, this unit receives an additional Hit Point
+on its Health Bar.
+#DESC_PRTO_Nizam_I_Cedid
+^
+^   
+^Nizam I Cedid, or "New Order", denote a series of reforms undertaken by Selim III in the Napoleonic Era. The Nizam-I Cedid army lasted until the Sultan was deposed by Janissaries in 1807.
+
+#PRTO_Hessian_Rifleman
+^
+^
+^[Hessian Riflemen] are elite Prussian mercenaries with strong attack and the ability to snipe a target unit.
+^
+^To represent its extra training and skill, this unit receives an additional Hit Point
+on its Health Bar.
+#DESC_PRTO_Hessian_Rifleman
+^
+^
+^Hessian Riflemen were famed for their accuracy, and became vaunted mercenaries.
+
+#PRTO_Corsair
+^
+^
+^[Corsairs] are Berber or Egyptian Pirates skilled in amphibious attacks.
+^
+^To represent its extra training and skill, this unit receives an additional Hit Point
+on its Health Bar.
+#DESC_PRTO_Corsair
+^
+^
+^Coastal areas are the playground of corsairs.
+
+#PRTO_Indelta
+^
+^
+^[Indelta] are irregular Swedish infantry, conscripted from farms. They have poor discipline, and spend much of their time farming. As a result, they can irrigate and clear tiles. Indelta require 1 population to recruit, but have a very low shield cost.
+
+#DESC_PRTO_Indelta
+^
+^   
+^Indelta were irregular militia, which performed poorly on the battlefield.
+
+#PRTO_Varvade
+^
+^
+^Varvade are Swedish professional soldiers. More skilled than $LINK<Indelta=PRTO_Indelta>, they are suitable for garrisons or frontline fighting.
+
+#DESC_PRTO_Varvade
+^
+^   
+^Varvade were far more skilled than their Indelta counterparts. As permanent soldiers, they recieved significantly more training.
+
+#PRTO_Savolak
+^
+^
+^[Savolak] are elite Finnish infantry in the Swedish army, with excellent training and high mobility.
+^
+^To represent its extra training and skill, this unit receives an additional Hit Point
+on its Health Bar.
+#DESC_PRTO_Savolak
+^
+^   
+^Savolaks were recruited from Finland, and were Sweden's elite units. Following the loss of Finland to Russia, the Savolaks were disbanded. This struck a serious blow to the Swedish army.
+
+
+
+;   ____________________________________________ARTILLERY UNITS_____________________________________________
+
+
+#PRTO_Grand_Battery
+^
+^
+^The Grand Battery simply represents a large group of cannons employed as a single formation, thus
+giving it increased bombardment effects. It is capable of bombarding adjacent targets to reduce them
+before other units attack outright. Like a cannon, a Grand Battery has no attack or defense value,
+so it should be protected by an escort.
+A Grand Battery is a wheeled unit, thus it cannot enter $LINK<mountain=TERR_Mountains>, $LINK<volcano=TERR_Volcano>,
+$LINK<jungle=TERR_Jungle> or $LINK<marsh=TERR_Marsh> terrain unless following a road.
+^
+^A city must have both $LINK<iron=GOOD_Iron> and $LINK<saltpeter=GOOD_Saltpeter> in its
+$LINK<Strategic Resource=GCON_ResourcesS> box to build a Grand Battery. Grand batteries have lethal bombardment.
+#DESC_PRTO_Grand_Battery
+^
+^
+^A "Grand Battery", as used by the French at Waterloo, comprised hundreds of guns,
+frequently with orders to concentrate their fire on one unit or location. The shock and
+disruption of a carefully planned and executed grand battery attack could turn the tide of
+battle, and indeed helped Napoleon win many of his battles. The Grand
+Battery is far superior to the normal cannon battery unit.
+
+
+#PRTO_Rocket_Artillery
+^
+^
+^Rocket artillery are an advanced artillery unit with exceptional range. While they lack the punch of the $LINK<Grand Battery=PRTO_Grand_Battery>, they can be used to harrass enemy units across impassable terrain or to degrade enemy logistics. Rocket artillery have lethal sea bombardment.
+#DESC_PRTO_Rocket_Artillery
+^
+^
+^Rocket artillery remained expensive and experimental during the Napoleonic Era, but the Congreve Rocket saw use in the War of 1812 and in British raids.
+
+#PRTO_Horse_Artillery
+^
+^
+^Horse Artillery are mobile clusters of cannons able to deploy and then crush the enemy. Horse artillery have lethal sea bombardment.
+#DESC_PRTO_Rocket_Artillery
+^
+^
+^Horse artillery's high mobility made them instrumental to Napoleon due to their ability to rapidly reposition.
+
+#PRTO_Howitzer
+^
+^
+^Howitzers are advanced artillery that strike a balance between range and power. They possess lethal sea bombardment.
+#DESC_PRTO_Howitzer
+^
+^
+^Experimental howitzers can outrange enemy artillery, or allow you to surprise unprepared defenders with a large barrage.
+
+
+
+; _______________________________________________NAVAL UNITS_____________________________________________
+
+
+
+#PRTO_Galley
+^
+^
+^The [galley] is the first naval unit you can build. These tiny, primitive ships must end each turn in a 
+$LINK<coastal=TERR_Coast> 
+square -- they are in danger of sinking if they end their turn in a $LINK<sea=TERR_Sea> or $LINK<ocean=TERR_Ocean> square. 
+
+
+#PRTO_Frigate
+^
+^
+^The [Frigate] is the first purely military naval unit. It can safely traverse any water and attack
+other naval vessels.
+^
+^A coastal city needs both $LINK<iron=GOOD_Iron> and $LINK<saltpeter=GOOD_Saltpeter> in its
+$LINK<Strategic Resource=GCON_ResourcesS> box to build Frigates.
+
+
+
+#PRTO_Galleon
+^
+^
+^The [Troop Transport] is a large, lightly-armed, wooden transport. It is incapable of bombardment
+but can carry numerous units.
+#DESC_PRTO_Galleon
+^
+^
+^This represents a lightly armed sailing vessel capable of transporting quantities of troops for military
+purposes. Such ships were used well into the 1800s until supplanted by wooden (and later iron-clad) steamships.
+
+
+
+#PRTO_Ship_of_the_Line
+^
+^
+^A [Ship of the Line] is a dangerous Napoleonic-era naval adversary, more powerful than a
+$LINK<frigate=PRTO_Frigate> or British $LINK<Man of War=PRTO_Man-O-War>.
+^
+^A coastal city needs both $LINK<iron=GOOD_Iron> and $LINK<saltpeter=GOOD_Saltpeter> in its
+$LINK<Strategic Resource=GCON_ResourcesS> box to build a Ship of the Line.
+#DESC_PRTO_Ship_of_the_Line
+^
+^   
+^The Napoleonic Era encompassed the "Age of Sail," a time when mighty Ships
+of the Line tore into one another with rows upon rows of guns: ball shot,
+grape shot, chain shot, a pull to stern and fire! Rake the enemy ship and
+throw grappling hooks. And then the desperate hand-to-hand on the rocking,
+creaking decks, as men armed with sabres and [pistolas] wavered back and forth
+in a fight to the death.
+
+#PRTO_Man-O-War
+^
+^
+^The British [Man-O-War] is a powerful $LINK<frigate=PRTO_Frigate> that only the British may build.
+^
+^The British Man-O-War can $LINK<Enslave=GCON_Enslavement>, and a successful enslavement creates another Man-O-War. Each unit also receives a bonus Hit Point.
+^
+^An British coastal city needs both $LINK<iron=GOOD_Iron> and $LINK<saltpeter=GOOD_Saltpeter> in its
+$LINK<Strategic Resource=GCON_ResourcesS> box to build the Man-O-War.
+
+#PRTO_Cutter
+^
+^
+^The [Cutter] is a small, well-armed littoral ship that can transport land units.
+#DESC_PRTO_Cutter
+^
+^
+^The cutter is a well-made vessel suited for defending coastlines and low-volume transporting. Cutters are a powerful tool for amphibious invasions.
+
+#PRTO_Sloop
+^
+^
+^The [Sloop] is a tiny and fast ship, designed for reconnaissance.
+#DESC_PRTO_Sloop
+^
+^
+^Sloops are fast and maneuverable, but suffer in combat.
+
+#PRTO_Raider
+^
+^
+^Raiders are flexible vessels suitable for spearheading amphibious invasions. They can transport a unit, while also bombarding the enemy.
+#DESC_PRTO_Raider
+^
+^
+^Raiders support marines and also harrass enemy supply lines along the coast.
+
+#PRTO_Gunboat
+^
+^
+^Gunboats are small and cheap littoral vessels, designed to protect your coastline on a budget. They have low speed and exceptionally weak defense but can break through enemy blockades or harrass transports. 
+#DESC_PRTO_Gunboat
+^
+^
+^Gunboats are the smallest Napoleonic Era combat ship, used for coastal combat.
+
+
+;   ____________________________________________LEADER / ARMY UNITS_____________________________________________
+
+
+
+#PRTO_Army
+^
+An [Army] is a group of ordinary units that move and fight together. To form an army, you must build the Army unit
+and then 'load' other units into it. You can load up to three units, though the $LINK<General Staff School=BLDG_Pentagon>
+increases this limit to four, if you have built it.
+^
+^{Building an Army}
+^Armies can be built in cities that have the $LINK<Military Academy=BLDG_Military_Academy>
+or a $LINK<Leader=GCON_Leaders> in them. But you must have at least four cities for every army you create.
+^
+^{In Battle}
+^An army uses one, some, or all its internal units to fight a battle, depending upon the course of the fight.
+^
+^{Spotting}
+^An army can "see" up to two squares away, due to its intrinsic scouts.
+
+; End Units______________________________________________________________________________End Units
+
+
+
+
+
+; City Improvements___________________________________________________________________City Improvements
+
+
+
+#BLDG_Police_Station
+^
+^
+^The [Public School] produces one $LINK<happy face=GCON_Happy_Faces> that makes one
+unhappy citizen happy.
+#DESC_BLDG_Police_Station
+^
+^
+^Napoleon was a firm believer in education for the masses. In fact, one of his lesser
+known claims to fame is his establishment of uniform public education. Under his
+regime countless public schools were established throughout France. According to
+Napoleon, "Until one learns from infancy whether it is necessary to be republican or
+monarchist, Catholic or atheist, etc., the State will not form a nation; it will rest
+on uncertain and vague foundations; it will be constantly exposed to disorders and
+changes."
+
+
+#BLDG_Forbidden_Palace
+^
+^
+Gives the benefits of a second $LINK<Palace=BLDG_Palace> located in the city that builds it. 
+^
+^{Requires:} The civilization must have at least ten cities (on a standard size map) under its control.
+
+
+
+; GREAT WONDERS ____________________________________________________________________________________ GREAT WONDERS
+
+
+#BLDG_Trading_Company
+^
+^
+^Pays $LINK<maintenance=GCON_Maintenance> costs for all trade-based city improvements
+($LINK<Harbors=BLDG_Harbor>, $LINK<Marketplaces=BLDG_Marketplace>, and $LINK<Banks=BLDG_Bank>).
+^
+^
+^
+^
+^May trigger $LINK<Golden Age=GCON_Golden_Age> for Commercial civilizations.
+
+
+
+; END GREAT WONDERS _________________________________________________________________________ END GREAT WONDERS 
+
+
+
+
+
+
+
+
+; SMALL WONDERS______________________________________________________________________________SMALL WONDERS
+
+
+
+
+
+#BLDG_Pentagon
+^
+^
+[The General Staff School] increases the unit capacity of all the civilization's armies from three to four.
+^{Requires:} The civilization must have at least three $LINK<armies=GCON_Armies> in the field.
+#DESC_BLDG_Pentagon
+^
+^
+^As long as there have been soldiers, there have been military commanders that came by their position due to political
+connections or perhaps their royal blood. Although many of these men performed ably in combat, quite a few
+led their troops to disaster due to their personal lack of military insight. By the end of the 18th century many
+nations were beginning to recognize the importance of a trained cadre of professionally-trained officers -- men that
+were awarded their sword not due to their "good blood", but because of their understanding of military tactics, sound
+judgement and personal bravery.
+
+
+
+#BLDG_Naval_Academy
+^
+^The movement rate of all naval units is increased by one.
+^
+^A city with a [Naval Academy] produces a new $LINK<Frigate=PRTO_Frigate> every 6 turns.
+^
+^A [Naval Academy] may be built only in a coastal city.
+^
+^
+#DESC_BLDG_Naval_Academy
+^
+^
+^Teaching a nation's aspiring young men the art of navigation and how
+to become a professional naval officer is the job of the Naval Academy. In Britain, a Royal
+Naval Academy was established at Portsmouth in 1733. Upon opening, it intended to instruct
+40 "young gentlemen" between ages thirteen and sixteen the ways of the Royal Navy. Another
+"Royal Naval Academy" was established in Fiume, along the Adriatic coast -- an important
+port of the Austro-Hungarian Empire. Istanbul, Turkey, is home to yet another Royal Naval
+Academy, this one established in 1776.
+
+
+; END WONDERS ____________________________________________________________________________________ END WONDERS
+
+
+
+
+
+
+; ADVANCES_______________________________________________________________________________________ ADVANCES
+
+
+
+#TECH_Nationalism
+^
+^
+^{New Ability}  Can $LINK<mobilize=GCON_Mobilization> for war.
+^{New Ability}  Can $LINK<draft=GCON_Draft> citizens.
+
+
+
+#TECH_Scientific_Method
+^
+^
+^
+^{New Ability}  Workers work twice as fast.
+
+
+
+#DESC_TECH_Military_Logistics
+^
+^
+^Napoleon is credited with the phrase, "An army marches on its stomach." One of his strengths as
+a general was his understanding of the importance of logistics. The French army was one of the
+best-clothed, fed, and supplied armies of the time, and its successful logistical program ensured
+its superiority for many years.
+
+
+
+#DESC_TECH_Artillery_Tactics
+^
+^
+^By trade, Napoleon was an artillery officer, and he understood the devastating impact that a
+well-placed artillery bombardment could have upon an enemy formation. Napoleon's tactic of a "grand
+battery" called for hundreds of guns to be deployed on the battlefield, all lined up to fire [en masse]
+on the advancing enemy force. The tactic often called for a concentration of fire upon a key spot in
+the field, followed by a massing of troops to exploit that location once the enemy line fell apart.
+In fact, the tactic was so popular that over 50 years later, at the battle of Gettysburg during the
+American Civil War, General Robert E. Lee used the massed artillery formation to pound the Union
+lines prior to Pickett's Charge.
+
+
+#TECH_Advanced_Tactics
+^
+^
+{Elite Infantry:}  [Advanced Tactics], once mastered allows France, Britain, Russia or the Ottomans (only) to build [elite] infantry units.
+^
+^
+#DESC_TECH_Advanced_Tactics
+^
+^
+^Napoleon once said that, "An army's effectiveness depends on its size, training, experience, and
+morale, and morale is worth more than any of the other factors combined." Soldiers of the Napoleonic
+Era were some of the most highly trained and mentally disciplined in the world. The French
+$LINK<Imperial Guard=PRTO_Imperial_Guard>, for example, is credited with winning many of Napoleon's
+battles. And elite troops were not exclusive to the French Army. The British
+$LINK<Lifeguard=PRTO_Lifeguard> and the Russian $LINK<Guard=PRTO_Guard>, and even the Ottoman
+$LINK<Janissary=PRTO_Janissary> could hold their own on the Napoleonic field of battle.
+
+
+#TECH_Diplomacy
+^
+^
+^{New Diplomatic Agreements} Can now negotiate mutual protection pact and trade embargo $LINK<agreements=GCON_Agreements>.
+#DESC_TECH_Diplomacy
+^
+^
+^Napoleon liked to say that "Governments keep their promises only when they are forced, or when it
+is to their advantage to do so." Political diplomacy during the Napoleonic era was as rife with
+subterfuge and chicanery as any in world history. Political alliances shifted as the wind blew.
+$LINK<Mutual Protection Pacts=GCON_Agreements> (called [Coalitions]) were struck often between
+nations trying to seek physical and economic security against France.
+
+
+#TECH_Code_Civil
+^
+^
+^
+^{New Ability}  Workers work twice as fast.
+#DESC_TECH_Code_Civil
+^
+^Before the Revolution, France was awash in legal inconsistencies. Hundreds of codes of law were
+practiced: The northern part of the country practiced a form of Common Law, while the south practiced
+Roman Law. When Napoleon came to power, he quickly moved to consolidate and codify these laws, and by
+1804, the consolidation was ratified and put into practice.
+^
+^The Code Napoleon (later renamed to [Civil Code]), was a mix of liberal and conservative philosophy,
+in which many basic rights guaranteed before the Revolution �- civil equality, freedom of religion and
+the abolition of feudalism �- were retained. The Code also guaranteed property rights and reinforced
+patriarchal power by giving full household authority to the husband. After Napoleon's fall in 1815,
+the Code was retained almost in its entirety by the Bourbons and is, to this day, the [modus operandi]
+for many legal systems throughout the world. 
+
+
+#DESC_TECH_General_Education
+^
+^
+^A good educational system was very important to Napoleon. Prior to the French Revolution, the
+school systems of Europe (and of France in particular) could be seen as desperately lacking.
+Poor schools, poorly trained teachers, lack of discipline... all of these traits defined the
+educational system that Napoleon inherited from his predecessors. Shortly after his ascendancy to
+the throne, the Little Emperor moved to improve the education in France. If France were to rise out
+of its Revolution and become the greatest European power, its citizenry needed knowledge.
+
+
+#DESC_TECH_Seapower
+^
+^
+^British Admiral Horatio Nelson once said, "No captain can do very wrong if he places his ship
+alongside that of the enemy." While the French army under Napoleon swept across Europe, the
+British Royal Navy dominated the seas. The Napoleonic Era can also be seen as the Age of Sail.
+Mighty Ships-of-the-Line answered broadside with broadside, and glorious battles were fought
+between massive armadas to determine the fate of Europe.
+
+
+#DESC_TECH_Naval_Tactics
+^
+^
+^The Napoleonic period was a time when rival European fleets, typically consisting of
+large numbers of wooden-hulled frigates and ships of the line, vied for naval supremacy.
+As these deadly contests at sea took place, naval tactics continued to evolve. One of the
+most decisive maneuvers that a fleet tried to execute was to "Cross the T", done when
+one long "battle line" of ships managed to attain a perpendicular aspect to the enemy
+fleet, thereby bringing the firepower of all their ships to bear in raking volleys up
+and down the line of the ill-positioned foe.
+^
+^By the end of the Napoleonic period the British navy emerged strong and triumphant --
+the supreme naval power of the world, due in no small part to the genius of Admiral Horatio
+Nelson, whose name still today is synonymous with the British Navy.
+
+
+
+; END ADVANCES____________________________________________________________________________________ END ADVANCES
+
+
+; RESOURCES_______________________________________________________________________________________________RESOURCES
+
+
+; _____________________________________________Strategic Resources___________________________________________
+#GOOD_Coal
+^
+^
+^[Coal] is not used in this scenario. It is listed here as a "dummy resource"
+only to hide unnecessary worker functions. 
+^
+#DESC_GOOD_Coal
+^
+^
+^Coal is a crumbly, black rock usually found buried deep under ground. What use could there possibly be for it?
+
+
+
+
+; TERRAIN ____________________________________________________________________________________TERRAIN
+
+#TERR_Desert
+^[Deserts] are arid stretches of land characterized by annual rainfall of less than ten inches. 
+^
+^Deserts may contain
+$LINK<incense=GOOD_Incense>, or
+$LINK<saltpeter=GOOD_Saltpeter>.
+
+
+#TERR_Plains
+^[Plains] are vast, open tracts of land, usually with very few trees and covered with
+vegetation such as sagebrush and various grasses. 
+^
+^Plains may contain
+$LINK<cattle=GOOD_Cattle>,
+$LINK<horses=GOOD_Horses>,
+$LINK<ivory=GOOD_Ivory>,
+$LINK<wheat=GOOD_Wheat>, or
+$LINK<wine=GOOD_Wine>. 
+
+
+
+#TERR_Grassland
+^The areas of land between desert regions and forests in temperate and tropical climates usually consist of [grassland].
+^
+^Grassland may contain
+$LINK<cattle=GOOD_Cattle>,
+$LINK<horses=GOOD_Horses>,
+$LINK<wheat=GOOD_Wheat>, or
+$LINK<wine=GOOD_Wine>.
+
+
+
+#TERR_Tundra
+^Cold, barren permafrost found in polar regions, [tundra] may contain
+$LINK<furs=GOOD_Furs> or
+$LINK<game=GOOD_Game>.
+
+
+#TERR_Hills
+^Rolling areas of the countryside often found between plains and more mountainous regions are known as [hills]
+or [foothills.]
+^
+^Hills may contain
+$LINK<gold=GOOD_Gold>,
+$LINK<horses=GOOD_Horses>,
+$LINK<iron=GOOD_Iron>,
+$LINK<incense=GOOD_Incense>,
+$LINK<saltpeter=GOOD_Saltpeter>, or
+$LINK<wine=GOOD_Wine>.
+
+
+#TERR_Mountains
+^[Mountains] are areas of high elevation, usually consisting of a chain of rugged peaks and valleys.
+^
+^Mountains may contain
+$LINK<gems=GOOD_Diamonds>,
+$LINK<gold=GOOD_Gold>,
+$LINK<iron=GOOD_Iron>, or
+$LINK<saltpeter=GOOD_Saltpeter>.
+
+
+#TERR_Forest
+^Extensive areas of land covered by thick growths of trees and related ground vegetation are classified as [forests]. 
+^
+^Forests may contain
+$LINK<dyes=GOOD_Dye>,
+$LINK<furs=GOOD_Furs>,
+$LINK<game=GOOD_Game>,
+$LINK<ivory=GOOD_Ivory>,
+$LINK<spice=GOOD_Spice>, or
+$LINK<silk=GOOD_Silk>.
+
+
+#TERR_Jungle
+^[Jungles] cover a significant portion of the equatorial areas of the world, and are breeding grounds for
+certain types of $LINK<diseases=GCON_Disease>.
+^
+^Jungles may contain
+$LINK<dyes=GOOD_Dye>,
+$LINK<gems=GOOD_Diamonds>,
+$LINK<silk=GOOD_Silk>, or
+$LINK<spice=GOOD_Spice>.
+
+
+#TERR_River
+^[Rivers] do not run [in] squares: instead they run along the edges of squares.
+Any square with a river along its edge produces one extra $LINK<commerce=GCON_Commerce> if
+worked by citizen laborers within a $LINK<city radius=GCON_Radius>. Also, rivers are sources of fresh water,
+allowing $LINK<irrigation=TFRM_Irrigation> of adjacent squares.
+
+
+#TERR_Fresh_Water_Lake
+^[Lakes] are bodies of water completely surrounded by land. They contain fresh water, allowing 
+$LINK<irrigation=TFRM_Irrigation> of adjacent squares.
+
+
+#TERR_Marsh
+^An extensive area of soft, low-lying terrain is known as a [Marsh]. The fetid conditions of
+a marsh can sometimes cause $LINK<disease=GCON_Disease>.
+^
+^Marsh may contain
+$LINK<game=GOOD_Game> or
+$LINK<fish=GOOD_Fish>.
+
+
+; END TERRAIN______________________________________________________________________________________END TERRAIN
+
+
+
+
+; Government Types________________________________________________________ Government Types
+
+
+#GOVT_Monarchy
+^
+^
+^Monarchs rule with absolute authority, severely limiting personal and economic freedom of all
+citizens except for nobility and the rich upper-class. However, there is a sense among the populace that you rule by
+sanction of the gods (or God).
+$LINK<Corruption and waste=GCON_Corruption> are significant, but are ameliorated to an extent by loyalty to the King.
+^
+^Worker efficiency				100%
+^Hurry Method					Pay citizens
+^Corruption / Waste				Problematic
+^War Weariness					None
+^Draft Rate						2
+^Military Police Limit				3
+^Unit Support
+^    per town					2
+^    per city						4
+^    per metropolis				8
+
+
+
+
+#GOVT_Republic
+^
+^
+^Under a Republic, you rule over autonomous city states by consent of the people through representatives. This allows the
+people substantial personal and economic freedoms, producing an increase in $LINK<commerce=GCON_Commerce>.
+However your government is affected by $LINK<war weariness=GCON_War_Weariness>, which can cause significant
+$LINK<civil disorder=GCON_Disorder> problems in times of war, especially if you are the aggressor.
+^
+^Worker efficiency				100%
+^Hurry Method					Pay citizens
+^Corruption / Waste				Nuisance
+^War Weariness					Low
+^Draft Rate						2
+^Military Police Limit				0
+^Unit Support
+^    per town					0
+^    per city						0
+^    per metropolis				0
+
+
+
+; END GOVTS______________________________________________________________________END GOVTS
+
+
+
+
+
+
+; Terrain Improvements___________________________________________________________Terrain Improvements
+
+#TFRM_Irrigation
+^
+^
+^Irrigation increases $LINK<food production=GCON_Food>. Only squares adjacent to fresh water (river or lake) or 
+to another irrigated square may be irrigated.
+^
+^{Terrain				Produces}
+^Floodplains			3 food, 4 if irrigated.
+^Grasslands				2 food, 3 if irrigated.
+^Plains					1 food, 2 if irrigated.
+^
+^Workers are ordered to irrigate by pressing [I] or the "Irrigate" button.
+
+
+#TFRM_Railroad
+^
+^
+^Railroads (and the strange monstrosities that will chug along them) have not yet been invented -- but you
+can almost hear that train a'comin!
+
+
+#TFRM_Airfield
+^
+^
+^Airfields? For what? A field full of air?!? That's silly!
+
+
+
+#TFRM_Radar_Tower
+^
+^
+^What's "radar", and why would you want a tower for it? There's no such thing!
+
+
+#TFRM_Outposts
+Outposts
+^
+^
+^Outposts eliminate fog of war.  To construct an Outpost, move a worker to any land tile in neutral or owned 
+territory and select the Build Outpost unit action. Construction of the Outpost consumes the worker. The range 
+of vision for the Outpost is 2 tiles on flat terrain, 3 on hills and 4 on mountains. Outposts can only be used 
+by the player who created them. If an Outpost falls within the territory of any other civilization, it will be 
+destroyed. Outposts can only be built in a tile that is empty, has a mine, irrigation or a road.
+You cannot build an Outpost on a tile with a Colony. The "Build Outpost" unit-action becomes 
+available after the Masonry advance is researched.
+
+
+
+; END Improvements____________________________________________________________________________END Improvements
+
+
+
+
+
+
+; Civilizations____________________________________________________________________________Civilizations
+
+#RACE_ROMANS
+^The Neopolitans are $LINK<religious and commercial=GCON_Strengths>, and have no special unit featured
+in this scenario. 
+^
+^During the French Revolution, the largest state in Italy was the Kingdom of Naples. Led by the very
+ineffective Bourbon king Ferdinand IV and his queen Marie-Caroline (sister to Marie-Antoinette), the
+kingdom was ripe for change. King and queen fled the French Revolutionary army but later returned to
+power under the aid of the British and Lord Nelson. But the fate of the kingdom ultimately rested in
+the hands of the little emperor, and in 1806, the French once again drove the Bourbons out of Naples.
+In their place, Napoleon throned his brother Joseph Bonaparte, who himself was later replaced by Joachim
+Murat. But, as was typical of the politics of the time, Murat himself was executed by the resurgent
+Ferdinand, who merged both Naples and Sicily together, and crowned himself Ferdinand I (King of the Two
+Sicilies). 
+
+#DESC_RACE_ROMANs
+^
+^
+^(No further description)
+
+
+
+#RACE_GERMANS
+^The Prussians are $LINK<militaristic and industrious=GCON_Strengths>. They build 
+$LINK<Cuirassiers=PRTO_Cuirassier> instead of $LINK<line cavalry=PRTO_Cavalry>, $LINK<Landwehr=PRTO_Landwehr> instead of $LINK<Light Lancers=PRTO_Light_Lancer>, $LINK<Hessian Riflemen=ICON_PRTO_Hessian_Rifleman> instead of $LINK<Line Infantry=PRTO_Line_Infantry>, and $LINK<Fusiliers=PRTO_Fusilier>
+instead of $LINK<Musket Infantry=PRTO_Rifleman>.
+^
+^The rise of Prussia as a European power during the 18th century took many by surprise. Under the noble
+statesmanship of the �Great Elector� Frederick William, and military headsman Frederick the Great, Prussia
+expanded its holdings to include not only Berlin and a province east of Danzig, but Silesia which it wrested
+from Austria; Pomerania from the Swedes; and a choice strip of land from the Poles that connected East Prussia
+to Brandenburg. They also acquired Cleves-Geldres of the lower Rhine, Emden, Mark, and two duchies in southern
+Germany. Yet, despite these territorial gains, Prussia remained a relatively poor nation, whose resources were primarily dedicated to the betterment of its army. 
+^
+^    During the French Revolution, Prussia tried to remain noncommittal. But by 1806, having lost much of its
+territories to a relentless Napoleon and his unwavering Imperial Guard, Prussia entered the Fourth Coalition
+and never looked back. Some badly needed military reforms helped bolster its power, and in 1815, the new
+Prussian army (under the enigmatic leadership of Gebhard von Blucher) helped the British bring a final
+end to Napoleon�s reign.
+
+#DESC_RACE_GERMANs
+^
+^
+^(No further description)
+
+
+#RACE_RUSSIAN
+^The Russians are $LINK<militaristic and agricultural=GCON_Strengths>. The Russians build
+$LINK<cossacks=PRTO_Cossack> instead of $LINK<light lancers=PRTO_Light_Lancer>, and $LINK<Jaegers=PRTO_Jaeger>
+instead of $LINK<Musket Infantry=PRTO_Rifleman>. Additionally, the Russians can build powerful
+$LINK<Guard=PRTO_Guard> infantry units.
+^
+^Indo-European, Ural-Altaic, and other races have occupied what is now the territory of Russia since 2000 BC, 
+but little is known about their institutions and activities. Modern Russia dates from about 770, when Viking 
+explorers began an intensive penetration of the Volga region. From bases in estuaries along the eastern Baltic, 
+Scandinavian bands, probably in search of new trade routes to the east, began to penetrate territory populated 
+by Finnish and Slavic tribes, where they found unlimited natural resources.
+^    Within a few decades the Rus, as the Viking settlers were known, together with other Scandinavians operating 
+farther west, extended their raiding activities down the main river routes toward Baghdad and Constantinople, 
+reaching the Black Sea in 860. In the period from 930 to 1000, the region came under complete control by the Rus 
+from their capital at Novgorod.
+^    The lifeblood of this sprawling Kievan empire was the commerce organized by these Viking princes. Novgorod's 
+burghers even forged an accommodation with the invading Mongols during the 13th century, but its absorption by the 
+growing Slavic principality of Muscovy in 1478 ended its political independence.
+^    Ivan III (1462-1505) consolidated the gains his father, Vasily II, had won in the saddle. This "gathering of 
+the Russian lands" became a conscious and irresistible five-century drive by Moscow to annex all Slavic lands, both 
+the Russian territories and the Belorussian and Ukrainian regions. The ascension of Peter I (the Great; 1694-1725) 
+ushered in and established the social, political and intellectual trends that were to dominate Russia for the next 
+two centuries. The location of his capital, St. Petersburg, on the shores of the Gulf of Finland symbolized this 
+shift toward a European involvement. 
+^    {Catherine the Great} (1762-1796) would prove to be Peter's true intellectual and political heir. Catherine's 
+reign was notable for imperial expansion. Most important were the securing of the northern shore of the Black Sea, 
+the annexation of the Crimea, and the expansion into the steppes beyond the Urals. This permitted the protection of 
+Russian
+#DESC_RACE_RUSSIAN
+^
+^
+^agricultural settlements in the south and the establishment of trade routes through the Black Sea. In the 
+process, the military democracies of the {Cossack} hosts along the Dnieper, Don and Volga rivers lost their autonomy 
+and special privileges; the wealthier officers became Russian nobles, receiving the right to own and settle serfs on 
+their own lands, while the fierce horsemen sank to the level of peasants with special military obligations.
+^    Despite the heritage of Peter and Catherine, by the time of Nicholas II (1894-1917) Russia was in disarray, 
+fighting an onerous war and plagued by internal misery and oppression. The Kerensky provisional government, a 
+moderate attempt to resolve the problems, collapsed in the face of the Bolshevik revolution. Given the Bolshevik 
+desire to dominate the whole of Russia and the rest of the former tsarist empire, civil war was inevitable. Stalin 
+would complete the consolidation of Communist power begun by Lenin. And he would lead Soviet Russia through the 
+greatest threat to its existence, and help it emerge as one of the world's superpowers following the Second World War. 
+^    But in the ensuing Cold War, Russia's economy tottered towards collapse. The people turned to Boris Yeltsin, 
+a liberal Party functionary. Elections to the Congress of People's Deputies in March 1989 saw him score a stunning 
+victory. He used his newfound legitimacy to promote Russian sovereignty, to advocate and adopt radical economic reform, 
+to demand Gorbachev's resignation, and to negotiate treaties with the Baltic republics, in which he acknowledged their 
+right to secede from the union. An ill-conceived, ill-planned, and poorly executed coup attempt to unseat Yeltsin 
+occurred August 1991, bringing an end to the Communist Party and accelerating the movement to disband the Soviet 
+Union. Yeltsin dissolved the Union of Soviet Socialist Republics in December 1991, banned the Communist Party in 
+Russia and seized all of its property.
+
+
+
+#RACE_FRENCH
+^The French are $LINK<militaristic and industrious=GCON_Strengths>, and build
+$LINK<Voltigeurs=PRTO_Voltigeur> instead of $LINK<Musket Infantry=PRTO_Rifleman>. The French can also build
+strong $LINK<Guard Cavalry=PRTO_Imperial_Cavalry> instead of $LINK<shock cavalry=PRTO_Shock_Cavalry>, as well as $LINK<Chasseurs=PRTO_Chasseur> instead of $LINK<light lancers=PRTO_Light_Lancer>,
+$LINK<Carabiniers=PRTO_Carabinier> instead of $LINK<line cavalry=PRTO_Cavalry>, and powerful
+powerful $LINK<Imperial Guard=PRTO_Imperial_Guard> infantry units.
+^
+^Modern France has its roots in ancient Gaul. In the 2nd century BC Rome intervened on the side of Massilia (Marseilles), 
+a Greek colony founded in 600 BC, in its struggle against the barbarian tribes of the hinterland. The result was the 
+formation, in 121 BC, of the Roman Provincia; between 58 to 50 BC Caesar seized the remainder. From 395 the internal 
+problems of the Empire encouraged barbarian penetration of 
+Transalpine Gaul. By 418, the Franks and Burgundians were established west of the Rhine, and the Visigoths had settled 
+in Aquitaine. The period of the Merovingian and Carolingian Frankish dynasties (476-887) frames the Early Middle Ages. 
+^    Following his ascension, the first Merovingian, Clovis (481-511), consolidated the position of the Franks in northern 
+Gaul. Clovis came to believe that his victories were due to the Christian God. Clovis' subsequent conversion assured 
+the Frankish rulers of the support not only of the Catholic Church but of the majority of their own subjects. By the 
+rise of the house of Valois in 1328, France was the most powerful kingdom in Europe. Its ruler could muster larger 
+armies than rivals; he could tap enormous fiscal resources; and the king's courts maintained royal supremacy. The 
+history of France in the Late Middle Ages is dominated by efforts of its kings to maintain their suzerainty, efforts 
+that, despite French advantages, were long frustrated. 
+^    The Hundred Years War was an intermittent struggle between 
+England and France in the 14th-15th centuries over a series of dynastic disputes, including the legitimate succession 
+to the French crown. The war's turning point was reached in 1429, when an English army was forced to raise its siege 
+of Orl�ans by a relief force organized by {Joan of Arc}. Her insistence that only consecration at Reims could make a 
+true king, chosen by God, led to further victories. Charles III was anointed in Reims in July 1429. By 1453, England 
+retained only Calais, which it finally relinquished in 1558.
+^    With the ascension of the infant Louis XIII (1610-1643), the security of the country was again threatened as factions 
+disputed the throne. Crown and country, however, were rescued by the most controversial 
+#DESC_RACE_FRENCH
+^
+^
+^figure of the Bourbon dynasty: 
+Armand-Jean du Plessis, Cardinal de Richelieu. He proved an 
+indefatigable servant of the French crown, intent on securing absolute obedience to the monarchy and on raising 
+its international prestige through the military prowess of the King�s elite {Musketeers}. Under the last Bourbons, 
+France became the industrial and commercial center of Europe.
+^    These developments, although significant by themselves, 
+gave rise to a still more momentous change: the French Enlightenment, a cultural transformation based on rationalism, 
+empiricism, and an amorphous concept of freedom found in the influential writings of Rousseau (1712-78). Hence, what 
+began in 1787 as a conflict between royal authority and aristocrats became a triangular struggle, with "the masses" 
+opposing both absolutism and privilege. By any standard, the fall of the Bastille to the Parisian crowd was a monumental 
+event, a seemingly miraculous triumph of the people. But the Revolution soon degenerated in a reign of terror and chaos. 
+Unlike others before him, Napoleon terminated the bloodshed, but at the price of suppressing freedom altogether. 
+In utter contrast to the Revolution, militarism became the defining quality of the Napoleonic regime. However, the 
+revolutionary fervor of the French citizenry was undiminished by the Napoleonic experience, and led to further 
+revolutions in 1830 and 1848, the latter leading to the Second Republic followed by the Second Empire (1852-1870). 
+^    Following defeat in the Franco-Prussia War, the Third Republic was formed - surviving the First World War but 
+collapsing in the face of the German invasion in 1940. The period of the short-lived Fourth Republic (1947-59) 
+was succeeded by the Fifth, adopted in September 1958 by popular referendum.
+
+
+#RACE_ENGLISH
+^The British are $LINK<militaristic, commercial, and seafaring=GCON_Strengths>. Their $LINK<Man-o-war=PRTO_Man-O-War> replaces the $LINK<Frigates=PRTO_Frigate>. The British can also build
+$LINK<Redcoats=PRTO_Redcoat> instead of $LINK<Musket Infantry=PRTO_Rifleman>,
+$LINK<Royal Dragoons=PRTO_Royal_Dragoon> instead of normal dragoons
+$LINK<Household Cavalry=PRTO_Household_Cavalry> instead of $LINK<shock cavalry=PRTO_Cavalry>, and
+powerful $LINK<Lifeguard=PRTO_Lifeguard> infantry units instead of $LINK<line infantry=PRTO_Line_Infantry>.
+^
+^In Roman times Britain lay on the periphery of the civilized world, and it emerged into the light of history 
+only after the Saxon settlements in the 5th century AD. Tribal migrations into Britain began about the middle 
+of the 5th century. The first arrivals were invited by a British chieftain to defend his kingdom against the Picts 
+and Scots. The first mercenaries were from three tribes - the Angles, Saxons, and Jutes - which located on the 
+coastlands of northwestern Germany. Eventually, these peoples would themselves topple the native kingdoms. But 
+unity was fleeting; the subsequent Norman Conquest (1066) resulted in the subordination of England to a Frankish 
+aristocracy, and the introduction of feudalism to the Isles.
+^    The English Normans would eventually give rise to a 
+purely British line of kings, the Plantagenets. Three centuries later, the Wars of the Roses was the final struggle 
+between the Yorkist and Lancastrian descendants of the Plantagenets for control of the throne. When Henry Tudor, earl 
+of Richmond, seized the crown in 1485, leaving the Yorkist Richard III dead upon the field of battle, few Englishmen 
+would have predicted that 118 years of Tudor rule had begun. {Elizabeth} I (1558-1603) proved to be the most able Tudor 
+monarch. No observer in 1558, any more than in 1485, would have predicted 
+that despite the social discord, political floundering, and international humiliation of the past decades, the kingdom 
+again stood on the threshold of an extraordinary age. Her reign ushered in two centuries of British exploration, 
+colonization, artistic and intellectual advances. When Elizabeth, the "Virgin Queen," died childless, Parliament 
+offered the crown to the closest blood kin, James VI of Scotland (1603-1625) and the United Kingdom was born, 
+defended by the "wooden wall" of the Royal Navy�s {Men-o-War}. 
+^    Every major war Britain engaged in during this period increased its colonial power. The Seven Years' War 
+was particularly notable in this respect, and so were the Napoleonic Wars. By 1820 the total population  
+of the British Empire was 200 million, 26% of the world's total population. However acquired, all these
+acquisitions added to   
+#DESC_RACE_ENGLISH
+^
+^
+^the crown�s and the country's power and reputation. For the privileged and the rich,
+the Victorian era was pre-eminently one of confidenceand arrogance, under the able
+guidance of Britain�s two Prime Ministers, Gladstone and Disraeli. But the "long summer
+of peace" came to an end in the bloodbath of Flanders. 
+^    Although Britain suffered far less physical damage than France and underwent no political revolution, World War 
+I may have affected it more fundamentally than any other European power. The war was a catalyst for social and 
+economic change. The mainstays of the Industrial Revolution, such as coal mining, textile production, and 
+shipbuilding, upon which British prosperity had been built, were now impoverished or redundant. British 
+foreign policy for much of the postwar period aimed at rehabilitating Germany, while domestic policy focused 
+on institutionalizing socialism to counter public concerns. In general, these movements were opposed by France 
+and resulted in a rupture between Britain and its wartime ally, forcing France into a position of isolation that 
+would have prodigious consequences for Europe with the rise of Hitler in the 1930s. Margaret Thatcher (1979-1990) 
+set out to end socialism in Britain. Her most dramatic acts consisted of a continuing series of statutes to 
+denationalize nearly every industry that Labour had brought into public ownership during the previous 40 years. 
+Promising that "we shall govern as New Labour," the Blair government installed in general elections in 1997 accepted 
+some of Thatcher's foreign policies but also carried out the economic reforms it promised in its manifesto. 
+In retrospect, the 1990s were a period of transition, controversy and continuity in the United Kingdom, and for the 
+royal family... Europe�s oldest surviving monarchy.
+
+
+#RACE_Spanish
+^The Spanish are $LINK<commercial, seafaring, and religious=GCON_Strengths>. They build
+$LINK<Soldados=PRTO_Soldado> instead of $LINK<Musket Infantry=PRTO_Rifleman>, and have access to $LINK<Miquelet guerillas=PRTO_Miquelet> and French $LINK<Carabiniers=PRTO_Carabinier>. 
+^
+^The Kingdom of Spain is located in the extreme southwest of the European continent, and occupies approximately 85-percent 
+of the Iberian Peninsula. Spain is bordered on the west by Portugal, in the Northeast by France, and by the great wall of the 
+Pyrenees Mountains.  The Iberian Peninsula that the Spanish inhabited was occupied by various other civilizations, including 
+the Phoenicians, Carthaginians, Romans, Visigoths, and Muslims, and Spain is now associated with having a very rich, eclectic 
+culture as a result.
+^    The development of Christian society and culture in the first 300 years following Islamic conquest in Spain was slow, but 
+major changes occurred for the Spanish in the 12th and 13th centuries. The population grew, communication with northern 
+Europe intensified, commerce and urban life gained in importance, and the kingdoms of the Castile, Aragon, and Navarre, and 
+Portugal emerged as the governing bodies of the Iberian Peninsula. These kingdoms reached the frontiers that they would keep, 
+with minimum amount of alteration, until the end of the Middle Ages, when {Isabella I} became Queen of Castile.
+^    Isabella began participating in the royal court at the age of 13; and when Portugal, Aragon, and France offered their 
+marriage candidates, she favored Ferdinand of Aragon. Isabella ascended to the throne as Queen of Castile to rule sensibly 
+and with a prudent political program.  Her unification of the states of the Iberian Peninsula into a single entity, the 
+maintenance and control over the Strait of Gibraltar, policy of expansion into Muslim North Africa, reform of Spanish 
+Catholicism, and support for the exploration and expansion in the unknown was evidence of her wisdom and capabilities as 
+Queen.
+^    On October 12, 1492 Columbus, with the blessing and financial backing of Isabella, sought a route to the legendary rich 
+markets of China and Japan, but instead discovered what would become known as "The New World", the present day Americas.  This 
+voyage gave way to a new golden age of expeditions and conquest, as the Americas contained gold, a valuable resource that Spain 
+happened to be desperately bereft of at the time.
+
+#DESC_RACE_Spanish
+^
+^
+^
+^Following Columbus' lead, a Spanish military group known as Los Conquistadores, 'The Conquerors', were directed by Hernan 
+Cortes to the New World with the sole purpose of seeking out new frontiers and riches in the unknown.  The Conquistadores 
+undertook their expeditions in the vast landmasses of the Americas at their own expense, risking their lives without aid from 
+the Spanish royalty.  Their conquests included campaigns in Guatemala, Peru, Cuzco, Columbia, Chile, the Bay of Honduras, and 
+as far as the Pacific Coastal regions.  The Conquistadors, however, were given to fighting and searching for gold, and were 
+swiftly replaced by administrators and settlers from Spain who governed in their place.
+^    Once the Spanish Kingdom established its presence in the Americas their operations inevitably became high-profile targets 
+of pirates and other raiders who were endorsed by European powers such as England.  The Monarchy of Spain endeavored to 
+retaliate by building an armada of warships that was dubbed "The Invincible Armada". The armada was a collection of over 130 
+naval warships and transport-ships, which contained approximately 8,000 seamen and 19,000 soldiers. King Philip II directed 
+this armada to invade England when the various and frequent raids on Spanish commerce in the Caribbean became intolerable.  
+England's success in repelling the Spanish fleet saved England and the Netherlands from potential consolidation into the 
+Spanish empire, but despite the armadas' defeat, the blow dealt by the Spanish upon England's reputation as the greatest 
+European power was palpable.
+^    Thereafter, Spain declined in power quickly; and by the 19th century, Spain became somewhat marginal in international 
+politics. Spain's period of imperial power and exploration left a legacy that consisted of 18 Latin American states, Puerto 
+Rico, and the ever-growing Spanish-speaking population in the United States today. In 1975 Spain transitioned into a 
+constitutional monarchy by way of a democratic constitution and is now recognized for its eclectic culture as well as for 
+the glory and mystique that it once possessed in its youth.
+
+
+#RACE_Vikings
+^The Swedes are $LINK<commercial and militaristic=GCON_Strengths> and have access to French $LINK<Carabiniers=PRTO_Carabinier>, instead of normal $LINK<line cavalry=PRTO_Cavalry>. 
+^
+^In the 18th century, Scandinavia was divided into two states, the most important of which,
+Sweden, included Finland. Possession of Finland brought forth the ire of Russia, who did not like
+the presence of a foreign power so close to her capital of St. Petersburg. As Russia "coveted"
+Finland, Prussia wanted Swedish Pomerania. And in turn Sweden itself wanted Norway (which, at the
+time, was linked by a common crown to Denmark).
+^
+^    During the Napoleonic Wars, Sweden stayed neutral for as long as it could. But by 1805, it had
+joined the Third Coalition. As fate would have it, however, due to various military and political
+turmoils (as outlined above), one of Napoleon�s henchmen, French Marshal Bernadotte, found himself
+accepting the role of Crown Prince of Sweden. This pleased Napoleon greatly, thinking he now had an
+ally on the throne. But duplicity was the game of choice for Bernadotte. Fully disenchanted with
+the little Emperor by this time, Bernadotte publicly supported Napoleon, while at the same time he
+secretly helped the Allies in their efforts to crush France.
+#DESC_RACE_Vikings
+^
+^
+^(No further description)
+
+
+
+#RACE_Celts
+^The Danes are $LINK<industrious and commercial=GCON_Strengths>, and have access to the flexible $LINK<Horse Guard=PRTO_Horse_Guards> cavalry.  
+^
+^During the 18th century, the Danish-Norwegian merchant fleet rivaled that of the British. This
+command of the seas brought Denmark considerable wealth and prestige, and although the Danes tried
+desperately to stay neutral in the growing conflict of the French Revolution, they were pulled
+kicking and screaming into that morass between the French-Russian alliance on one side, and the
+British-Swedish alliance on the other. When she was not willing to submit to British demands to
+stop �calling� at French ports, the British shelled Copenhagen in 1801 and again in 1807. These
+attacks led to Denmark�s (rather forced) alliance with Napoleon, and as the Little General finally
+succumbed to the Fates, so too Denmark. By 1814, its majestic city shelled, its fleet besieged,
+and its economy weakened, Denmark was forced to cede Norway to Sweden and Helgoland to England.
+#DESC_RACE_Celts
+^
+^
+^(No further description)
+
+
+
+#RACE_Ottomans
+^The Ottomans are $LINK<religious and industrious=GCON_Strengths> and build
+$LINK<Sekhans=PRTO_Sekhan> instead of $LINK<Musket Infantry=PRTO_Rifleman> and $LINK<Sipahi=PRTO_Sipahi>
+instead of normal $LINK<cavalry=PRTO_Cavalry>. Additionally, the Ottomans can build the powerful
+$LINK<Janissary=PRTO_Janissary> infantry unit.
+^
+^Fables and legends that feature the origins of the Ottoman Empire indicate that {Osman}, a Turkish tribesman, 
+was the original ruler responsible for founding the civilization that nearly brought Christian Europe to its 
+knees. Narratives indicate that Osman's tribe, the Kayi, fled west from the Mongols in the 13th century and took 
+control of a freebooting army of nomads and Muslim peasants who inhabited the rugged stretch of wasteland along 
+the Byzantine frontier.  This band of refugees enjoyed close ties to Muslim guilds and religious brotherhoods in 
+local towns that were led by Sheikh Edebali, who allowed Osman to form a tiny state around his castle of 
+Karacahisar.  Turkish warriors and religious leaders who also fled from the pagan Mongols in the east quickly 
+populated this region, ruled by Osman.  Osman directed his community through the Kara Su valley to seize 
+Yenisehir, and establish it as the first true Ottoman capital. The Ottoman state emerged, poised above the 
+fertile shores of the Sea of Marmara.
+^    Osman continued to wage a slow but persistent war against the Byzantine Empire who endeavored to defend 
+their territories along the Asiatic shores that were opposite of Constantinople (now Istanbul).  His first 
+victory over a Byzantine army at Koyunhisar in 1301 AD perpetuated Osman's fame, and settlers flocked to Ottoman 
+territory as a result.  Osman extended his control over several other Byzantine fortresses, providing the 
+Ottomans with strong bases from which they could lay siege to Bursa and Nicaea in northwest Anatolia.  The 
+pinnacle of Osman's reign occurred at the conquest of Bursa shortly before his death.
+^    Initially, Ottoman war tactics were no different than those used by the tribal Turks.  They would first 
+harass the foe with horse-archers, employing hit and run tactics, only closing in on the enemy when they became 
+completely disorganized.  Thus, the earliest Ottoman successes were won against isolated Byzantine garrisons, 
+but rarely against a field army.  In order to capture fortified towns the Ottomans ravaged the countryside and 
+imposed blockades.  Afterwards, the Ottomans would revive the town's trade and increase its population   
+#DESC_RACE_Ottomans
+^
+^
+^so that it could then be consolidated into the Empire as a productive and functioning
+city. During their earliest exploits, the Ottomans were frequently frustrated by
+fortifications and the exhausting sieges that were required in order to overcome these
+defenders. This changed in the 15th century and beyond as imported expertise in firearms
+and gunpowder led to some of the most massive artillery of 
+the time. A form of Turkish heavy cavalry, known as {Sipahi}, became the predominating military unit utilized by 
+the Ottoman Empire. The earliest variations of these soldiers were well-armored men on well-armored horses, 
+who typically used a mace as their primary weapon.  During the 17th century the Sipahi replaced their archaic 
+weaponry with sabers and pistols, establishing them as a fearsome presence on the battlefield.  While European 
+infantry were more than a match for the standard Ottoman infantry, the Sipahi were far superior to any 
+medieval knights.
+^    During their period of expansion, the Ottomans visualized Europe as Americans would later see their Western 
+frontier: a land of destiny. The conquest of Istanbul in 1453 AD initiated this by uniting Muslim Anatolia and
+Christian Rumelia under the Ottoman Sultan's protection. However, this attitude would change as the Ottomans 
+were forced to go on the defensive during the 17th and 18th centuries. Ottoman defeats were followed by mass 
+slaughters of Muslim minorities. These massacres characterized the war between Christian and Turk in the 19th 
+century.
+^    At its height, the Ottoman Empire territory included Hungary, Serbia, Bosnia, Romania, Greece, the 
+Ukraine, Iraq, Syria, Israel, Egypt, a large section of North Africa, and most of the Arabian Peninsula. Over 
+time, however, Sultans grew weary of their administrative duties and withdrew from public affairs. The office of 
+Grand Vizier was created to act second only to the sultan in authority and revenue, but while the Grand Vizier 
+was able to stand in for the sultan in an official capacity, he could not take his place as a focus of loyalty 
+among the different classes and social groups in the empire.  This separation of political loyalty and 
+centralized authority led to a decline in the government's ability to impose its will, which inevitably led to 
+the Ottoman Empire's end in 1922, when it was replaced by the Turkish Republic.
+
+
+#RACE_AUSTRIA
+^The Austrians are $LINK<militaristic and industrious=GCON_Strengths>, and build $LINK<Hussars=PRTO_Hussar>
+instead of normal $LINK<light lancers cavalry=PRTO_Light_Lancer>, elite $LINK<Grenadiers=PRTO_Grenadier>, and $LINK<Grenzers=PRTO_Grenzer> instead of
+$LINK<Musket Infantry=PRTO_Rifleman>.
+^
+^Austria, located in lower Central Europe north of the Balkans, first coalesced as a nation in the early Middle
+Ages by the margrave Leopold of Babenberg, a regional noble who in the 10th century C.E. pushed the Magyars from
+that area and formalized a system of common law. But it was not until three hundred years later that Austria would
+take the first steps towards great power status.  A Hungarian noble, Otakar II, took advantage of a succession
+dispute in 1254 and married into the Babenberg line.  As a response, the German nobility in Bavaria and elsewhere
+felt concerned, and began a long campaign to undermine and eventually depose Otakar.  The German army's commander,
+a relatively obscure noble from a minor family, was then elected king of Germany to reward his successes. His name
+was Rudolf of Hapsburg.  The Hapsburgs would become one of Europe's most powerful families; the seat of their power
+was Austria.
+^    In 1519 Martin Luther posted his famous 95 Theses, and at the time the Hapsburg emperor was {Charles V}, a devout
+Catholic and harsh ruler. Forced to rule two essentially foreign countries -- Austria and Spain -- Charles did his best, but
+made many mistakes and alienated many nobles before he was able to successfully ride two of Europe's strongest horses
+at once. Moreover, Charles' fervent opposition to Protestantism as well as his well-founded concerns regarding the
+Hapsburg rights in western Europe diverted his attention from the threat of the Ottoman Turks (whose ships already
+ruled the Mediterranean). He used severe measures to put down rebellions in lower Austria and in the Netherlands, and even
+allowed an unpaid and hungry army to sack Rome over a grudge against the Pope. Nonetheless, Charles dealt successfully
+with a huge number of threats, minor and major, to the Austrian empire, and he also managed to keep the Turks at bay. He even managed to expand the empire, by acquiring the Portuguese succession rights. His greatest ambition, to
+bring all Protestants back into the Church, was obviously a failure, although he made several sincere (and even nonviolent)
+attempts to bring this about.
+^    After Charles' death, the empire steadily grew, adding Bohemia to the northeast.  The new Emperor, Ferdinand, wished
+to extend his 
+#DESC_RACE_Austria
+^
+^
+^influence and rule further into Germany. The result was the Thirty Years' War, in which the great powers of Europe took
+advantage of religious strife to expand their influence.  Austria did not do well in the end, and lost territory and huge
+amounts of money in the war and ensuing treaty.
+^    Austria continued to play a major role in European and world politics through the nineteenth century, attempting to slow
+the rise of Prussia in Germany, and acting as a key member of the coalition opposing Napoleon.  The Austrian army adopted
+the style and dress of the Hungarian light cavalry, and these fast, deadly horsemen came to be known as {hussars}. Hussars
+quickly became part of virtually every European army's order of battle, and some still fight today.
+^    Since 1700 Austria has been (and remains) a focal point of European culture and learning.  History's greatest composer, Wolfgang Amadeus Mozart, created his works for the Austrian emperor.  The Vienna Circle, an influential group of philosophers
+and mathematicians, sparked the "logical positivist" movement, which sought to unify philosophy with natural science. At the
+same time, the economist Carl Menger founded the Austrian school of economics, which emphasized qualitative analysis of
+human action.
+^    The first among many of the twentieth century's tragedies began in Austria, with the assassination of Archduke Franz Ferdinand
+by Serbian nationalists.  When the Serbian government refused Austria's outrageous demands, Austria declared war on Serbia. This
+sparked the chain of events leading to World War I, which would consume millions of lives and leave Europe's great empires in
+ruins and revolution. The Hapsburg empire was no exception, and its final collapse came at this time.
+^    After World War I, Central Europe was broken into many different countries.  Austria was ruled by a series of authoritarian
+regimes until it was annexed by one even more
+ so -- Hitler's Germany.  After a period of military rule, Austria became a
+full-fledged republic in 1955. Today Austria is known as a repository of European culture and tradition, despite its struggles
+with its Nazi past; its churches and universities are among Europe's most prestigious, especially in the arts.
+
+
+
+#RACE_PORTUGAL
+^The Portuguese are $LINK<commercial and religious=GCON_Strengths>, and have access to the Iberian $LINK<Miquelet=PRTO_Miquelet> unit.
+^
+^
+^In 1139 CE, Afonse Henriques, appointed count of the province of Portugal by the king of Castile, defeated a
+Muslim army at Ourique. Impolitely, he took that opportunity to declare Portugal independent of Castile, with
+himself as king of the new country. He was able to get away with it largely due to the recognition by the
+Christian kingdoms of Spain that the Muslims were the common enemy, and when assured that Portugal would still play
+an active role in the impending Reconquista, Castile-Navarre and Aragon were willing to overlook Henriques�
+impudence. Two hundred years later, once the Muslims were confined to their tiny corner of Spain in Granada,
+Castile saw fit to repossess the Portuguese kingdom. When the Castilian army was soundly thrashed in battle by
+the warrior king John of Aviz, it was clear to all that Portugal was there to stay.
+^    After the victory over Castile and the collective reconquest of Iberia from the Muslims, Portugal looked
+overseas to continue its expansion. King John led a campaign against Ceuta in North Africa (modern-day Morocco).
+The ease of Ceuta�s conquest caught the attention of his third son, {Prince Henry the Navigator}. Henry�s
+older brother Duarte succeeded to the throne after John�s death, and the two were often at odds, with Duarte
+skeptical and suspicious of Henry�s ambitions to explore new lands and convert the natives to Christianity. For
+the next twenty years Henry sponsored expeditions to western Africa, and even led a campaign to invade Tangiers
+in 1437 (which ended in defeat). But on the whole Henry�s personal seafaring experience was limited; his
+sobriquet comes from his patronage of other adventurers and the resulting age of discovery and colonization that
+they inaugurated with his support.
+^    Portuguese explorers continued their discoveries after Henry�s death in 1460. The greatest was Bartolomeu
+Dias, whose 1488 voyage around the southern coast of Africa made Europe aware of the Indian Ocean and a shorter
+route to India than the one Columbus gambled on just four years later. Dias also traveled across the western
+Atlantic to Brazil; on that voyage he was lost at sea in 1498. 
+^    Closely following Dias was Vasco da Gama, who took Dias� maps
+#DESC_RACE_PORTUGAL
+^and went beyond their limits, landing in India in 1497. He made three trips to India over the following thirty
+years, the last of which took place in 1524 after his appointment by the King as viceroy of India. He did not
+live long after his arrival; some speculate he was poisoned by corrupt administrators who feared punishment at
+his hands.
+^    In 1543, Portuguese sailors were shipwrecked in Japan. They did not stay long, but left behind the technique
+of musket-making -- in that way, a handful of men changed Japanese history forever, as the samurai era was drowned
+by the sound of musketfire. By that time Portugal�s overseas holdings were vast, comprising holdings all over
+Africa, India, China, Macao, and South America.
+^    In 1580 Spain awoke, flexing its muscles as the world�s pre-eminent power. It took the opportunity to
+occupy Portugal, and for almost 100 years the two countries were united. The Portuguese royalty did not give
+up, though, and through clever diplomacy and alliance with England they were able to restore their monarchy and,
+with Spain greatly weakened and demoralized by the Thirty Years� War, finally forced Spanish recognition of
+Portuguese independence. Portugal remained an influential and wealthy European power through the Napoleonic Wars,
+when its alliance with Britain gave the British a foothold on the Continent to oppose Napoleon�s armies.
+^    Portugal�s prosperity lasted until the 1890s, when a combination of inflation and sluggish
+industrialization undermined its industries. Dissatisfaction with the monarchy led to a coup and the establishment
+of a republic in 1910; this did not last long, as radical groups pursued extreme agendas and unrest grew. In 1926,
+the army bloodlessly overthrew the republic; the junta asked a university professor and occasional member
+of parliament named Antonio Oliviera de Salazar to assume control of all economic policy. Six years later,
+Salazar became prime minister, a limited office in theory but dictator in practice. Salazar�s new
+constitution formalized his powers and he ruled Portugal with absolute authority for nearly 40 years.
+^    In 1968 Salazar suffered a stroke; his ministers tried to continue the dictatorship but in 1974 a
+democratic revolution re-installed a republican form of government. After narrowly avoiding a Communist coup,
+Portugal flourished, although it presently faces structural problems similar to those of its nearest
+European neighbors.
+
+
+
+#RACE_NETHERLANDS
+^The Dutch are $LINK<industrious, commercial, and seafaring=GCON_Strengths>. They have access to the potent $LINK<Raider=PRTO_Raider> unit, which can help them control the seas. 
+^
+^
+^Toward the end of the 16th century CE, the independent cities and principalities of Flanders and Belgium sent
+representatives to Utrecht to form an alliance. The alliance would coordinate taxation and military operations
+against Spain, whose ruling Hapsburgs had dominion over the Low Countries even after they adopted the Protestant
+religion. The Netherlands, comparatively small and poor compared to mighty Spain and its empire of gold in
+the Americas, often had to rely on {Swiss mercenaries} and other hired guns for its defense. This was not a
+long-term solution, hence the need for a much closer alliance. The result of this meeting was the Union of
+Utrecht, which formally created the United Provinces of the Netherlands.
+^    Spain, which had spent the previous decade alternately fighting and politicking against the armies and
+intrigues of {William of Orange}, was not pleased by this development. Orange�s position had always been that
+Spain�s sovereignty over the Netherlands was legitimate, but the governors chosen by the King were trampling
+the rights of Orange and the other native nobles. William also vehemently opposed the imposition of Catholicism
+on his homeland, but still felt the King of Spain could be persuaded to loosen his grip. This proved unrealistic,
+and in 1581 Orange publicly renounced his loyalty to the Spanish throne. He was assassinated a few years later;
+he did not live to see his country completely free of Spanish domination.
+^    However, once the provincial leaders (particularly those of Holland, the largest and most influential of
+the United Provinces) and the nobles began to cooperate, putting their disagreements to one side, Spain was
+nearly defeated. Under the brilliant political, military, and economic leadership of Johan de Witt, perhaps
+the Netherlands� greatest statesman, the Dutch Republic grew into a world power, its rapidly growing economy and
+naval presence allowing it to settle colonies around the world and establish a massive trade empire. This
+wealth translated into a cultural golden age lasting over a hundred years.
+^    During that time, Dutch thinkers made fundamental contributions to philosophy, law, science, and art.
+Hugo Grotius, a lawyer and
+#DESC_RACE_NETHERLANDS
+^philosopher, wrote �On the Law of War and Peace� in 1625 �- perhaps the first comprehensive analysis of
+international law. The philosopher Baruch Spinoza published substantial revisions of his mentor Rene
+Descartes� rationalist works, and also wrote a lengthy defense of freedom of conscience �- which was promptly
+denounced as heresy by his contemporaries. In art, an obscure portrait painter named Rembrandt van Rijn rose
+to prominence (and disapproval) for his religious paintings and figure studies. Peter Paul Rubens, a great painter
+in his own right, also ran an immense school for artists, attracting dozens of talented painters from all over
+Europe to the Netherlands. The mathematician Christiaan Huygens developed his wave theory of light, which was a
+giant leap in the study of optics pioneered by Isaac Newton. And biology was made incomparably easier by Antonie
+van Leeuwenhoek�s invention of the microscope.
+^    After the Golden Age, the Netherlands retreated into the background, as the English fleet gradually achieved
+its supremacy. By the Napoleonic era, the Netherlands was once again dominated by its neighbors. In 1830,
+Belgium broke away from the United Provinces, in reaction to the restoration of the monarchy and the subordination
+of the Estates General, the council of stadtholders (provincial rulers). The Industrial Revolution came to
+the Netherlands as it did to the rest of continental Europe, and when World War I arrived, the Dutch remained
+neutral.
+^    The Dutch were not so fortunate during World War II, as Hitler�s armies invaded and imposed their brutish
+rule. (The diary of Anne Frank, a Jewish girl living in Amsterdam, is considered a classic portrait of innocence
+confronted with great evil.) Despite an unusually active and vigorous resistance to the Nazis �- which was often
+met with brutal reprisals �- a great many Dutch Jews died in the Nazi death camps. After the war, the former
+Dutch colonies followed the pattern of other European colonies at the time, with independence and nationalist
+movements breaking out everywhere. Dutch politics were still characterized by religious divisions even until
+the 1970s, appropriately given the nation�s history, but a more conventional parliamentary party system arose.
+Today the Netherlands, a thoroughly modern European nation, is best known for its hosting of international
+institutions such as the International Criminal Court in The Hague.
+
+
+#EOF
