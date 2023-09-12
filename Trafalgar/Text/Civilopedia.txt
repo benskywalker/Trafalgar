@@ -2274,7 +2274,7 @@ the glory and mystique that it once possessed in its youth.
 
 
 #RACE_Vikings
-^The Swedes are $LINK<commercial and militaristic=GCON_Strengths> and have access to French $LINK<Carabiniers=PRTO_Carabinier>, instead of normal $LINK<line cavalry=PRTO_Cavalry>. 
+^The Swedes are $LINK<commercial and militaristic=GCON_Strengths>. They have access to French $LINK<Carabiniers=PRTO_Carabinier> instead of normal $LINK<line cavalry=PRTO_Cavalry>, $LINK<Indelta farmers=PRTO_Indelta> instead of $LINK<Musketmen=PRTO_Musketman>, $LINK<Varvade=PRTO_Varvade> instead of $LINK<Musket Infantry=PRTO_Rifleman>, and the rapid $LINK<Savolaks=PRTO_Savolak> instead of $LINK<Line Infantry=PRTO_Line_Infantry>. 
 ^
 ^In the 18th century, Scandinavia was divided into two states, the most important of which,
 Sweden, included Finland. Possession of Finland brought forth the ire of Russia, who did not like
