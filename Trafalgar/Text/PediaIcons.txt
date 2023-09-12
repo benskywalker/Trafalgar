@@ -985,7 +985,7 @@ SINGLE
 51
 art\civilopedia\icons\buildings\cureforcancerlarge.pcx
 art\civilopedia\icons\buildings\cureforcancersmall.pcx
-#ICON_BLDG_Epic
+#ICON_BLDG_Constitution
 SINGLE
 54
 art\civilopedia\icons\buildings\epiclarge.pcx
@@ -1545,6 +1545,8 @@ art\wonder splash\Zeus.pcx
 art\wonder splash\Mausoleum.pcx
 #WON_SPLASH_BLDG_Naval_Academy
 art\wonder splash\military academy.pcx
+#WON_SPLASH_BLDG_Constitution
+art\wonder splash\Epic.pcx
 
 ################################################################
 #Era splash art begin

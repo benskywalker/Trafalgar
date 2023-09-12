@@ -1621,7 +1621,7 @@ judgement and personal bravery.
 ^
 ^The movement rate of all naval units is increased by one.
 ^
-^A city with a [Naval Academy] produces a new $LINK<Frigate=PRTO_Frigate> every 6 turns.
+^A city with a [Naval Academy] produces a new $LINK<Raider=PRTO_Raider> every 10 turns.
 ^
 ^A [Naval Academy] may be built only in a coastal city.
 ^
@@ -1636,6 +1636,16 @@ Naval Academy was established at Portsmouth in 1733. Upon opening, it intended t
 "Royal Naval Academy" was established in Fiume, along the Adriatic coast -- an important
 port of the Austro-Hungarian Empire. Istanbul, Turkey, is home to yet another Royal Naval
 Academy, this one established in 1776.
+
+#BLDG_Constitution
+^
+^A Constitution is a binding treatise that improves your government. It produces one happy face, making 1 citizen happy in each city you own. It also reduces corruption similar to the $LINK<Forbidden Palace=BLDG_Forbidden_Palace>.
+^
+^
+#DESC_BLDG_Constitution
+^
+^
+^Constitutions are binding documents that limit and explain the powers of government. Arising from feudal noble-suzerain relationships, Constitutions have their roots in Ancient Greece, the Magna Carta, and other treaties. However, written Constitutions became popular in the Eighteenth century with the United States Constitution and the Polish Constitution of 1795.
 
 
 ; END WONDERS ____________________________________________________________________________________ END WONDERS
