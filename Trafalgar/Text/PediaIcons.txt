@@ -2078,7 +2078,7 @@ Guard_Infantry
 #ANIMNAME_PRTO_Rocket_Artillery
 British Rocket Team
 #ANIMNAME_PRTO_Howitzer
-Howitzer
+6inch Howitzer
 #ANIMNAME_PRTO_Horse_Artillery
 Generic Nap Horse Artillery
 #ANIMNAME_PRTO_Raider
