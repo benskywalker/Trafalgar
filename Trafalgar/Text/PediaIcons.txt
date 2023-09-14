@@ -767,8 +767,8 @@ art\civilopedia\icons\units\17cavalrysmall.pcx
 
 
 #ICON_PRTO_Miquelet
-art\civilopedia\icons\units\X2_NapoleonicInfantry_lg.pcx
-art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
+art\civilopedia\icons\units\1812_Spanish_Grenadier-large.pcx
+art\civilopedia\icons\units\1812_Spanish_Grenadier-small.pcx
 #ICON_PRTO_Marine
 art\civilopedia\icons\units\X2_Guard_Infantry-large.pcx
 art\civilopedia\icons\units\X2_Guard_Infantry-small.pcx
@@ -2062,7 +2062,7 @@ Cossack
 Ship_of_the_Line
 
 #ANIMNAME_PRTO_Miquelet
-Rifleman
+1812 Spanish Grenadier
 #ANIMNAME_PRTO_Marine
 Guard_Infantry
 #ANIMNAME_PRTO_Nizam_I_Cedid
