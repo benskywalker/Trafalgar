@@ -1356,6 +1356,15 @@ on its Health Bar.
 ^   
 ^Savolaks were recruited from Finland, and were Sweden's elite units. Following the loss of Finland to Russia, the Savolaks were disbanded. This struck a serious blow to the Swedish army.
 
+#PRTO_Royal_Marine
+^
+^
+^British [Royal Marine] infantry units are skilled attacking units capable of attacking [[amphibiously]]. They are well trained and have embedded artillery companies.
+#DESC_PRTO_Royal_Marine
+^
+^   
+^British Royal marines played a key role in the Napoleonic Wars, fighting across all of Europe.
+
 
 
 ;   ____________________________________________ARTILLERY UNITS_____________________________________________

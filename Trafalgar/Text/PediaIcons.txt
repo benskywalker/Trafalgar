@@ -717,8 +717,8 @@ art\civilopedia\icons\units\x2_SwissMerc civpedia sm.pcx
 art\civilopedia\icons\units\x2_Trebuchet civpedia lg.pcx
 art\civilopedia\icons\units\x2_Trebuchet civpedia sm.pcx
 #ICON_PRTO_Soldado
-art\civilopedia\icons\units\X2_NapoleonicInfantry_lg.pcx
-art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
+art\civilopedia\icons\units\1812_Spanish_Line_Infantry-large.pcx
+art\civilopedia\icons\units\1812_Spanish_Line_Infantry-small.pcx
 #ICON_PRTO_Sekhan
 art\civilopedia\icons\units\X2_NapoleonicInfantry_lg.pcx
 art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
@@ -759,8 +759,8 @@ art\civilopedia\icons\units\X2_ShipOfTheLine_sm.pcx
 art\civilopedia\icons\units\17cavalrylarge.pcx
 art\civilopedia\icons\units\17cavalrysmall.pcx
 #ICON_PRTO_Household_Cavalry
-art\civilopedia\icons\units\17cavalrylarge.pcx
-art\civilopedia\icons\units\17cavalrysmall.pcx
+art\civilopedia\icons\units\1812_British_Royal_Guard-large.pcx
+art\civilopedia\icons\units\1812_British_Royal_Guard-small.pcx
 #ICON_PRTO_Cuirassier
 art\civilopedia\icons\units\17cavalrylarge.pcx
 art\civilopedia\icons\units\17cavalrysmall.pcx
@@ -830,8 +830,8 @@ art\civilopedia\icons\units\17cavalrysmall.pcx
 art\civilopedia\icons\units\61russiancossacklarge.pcx
 art\civilopedia\icons\units\61russiancossacksmall.pcx
 #ICON_PRTO_Royal_Dragoon
-art\civilopedia\icons\units\61russiancossacklarge.pcx
-art\civilopedia\icons\units\61russiancossacksmall.pcx
+art\civilopedia\icons\units\1812_British_Dragoon-large.pcx
+art\civilopedia\icons\units\1812_British_Dragoon-small.pcx
 #ICON_PRTO_Hessian_Rifleman
 art\civilopedia\icons\units\16riflemanlarge.pcx
 art\civilopedia\icons\units\16riflemansmall.pcx
@@ -850,6 +850,9 @@ art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
 #ICON_PRTO_Indelta
 art\civilopedia\icons\units\X2_Nap_Musket_lg.pcx
 art\civilopedia\icons\units\X2_Nap_Musket_sm.pcx
+#ICON_PRTO_Royal_Marine
+art\civilopedia\icons\units\1812_British_Marine-large.pcx
+art\civilopedia\icons\units\1812_British_Marine-small.pcx
 
 #Start buildings
 #ICON_BLDG_Airport
@@ -2036,11 +2039,11 @@ Nap_Infantry
 #ANIMNAME_PRTO_Sekhan
 Nap_Infantry
 #ANIMNAME_PRTO_Soldado
-Nap_Infantry
+1812 Spanish Line Infantry
 #ANIMNAME_PRTO_Imperial_Cavalry
 Cavalry
 #ANIMNAME_PRTO_Household_Cavalry
-Cavalry
+1812 British Horse Guard
 #ANIMNAME_PRTO_Cuirassier
 Cavalry
 #ANIMNAME_PRTO_Grand_Battery
@@ -2089,7 +2092,7 @@ Cavalry
 #ANIMNAME_PRTO_Horse_Guards
 Cavalry
 #ANIMNAME_PRTO_Uhlan
-1812_French_Uhlan
+1812 French Uhlan
 #ANIMNAME_PRTO_Akinci
 Cavalry
 #ANIMNAME_PRTO_Landwehr
@@ -2099,7 +2102,7 @@ Cavalry
 #ANIMNAME_PRTO_Dragoon
 Cossack
 #ANIMNAME_PRTO_Royal_Dragoon
-Cossack
+1812 British Dragoon
 #ANIMNAME_PRTO_Horse_Grenadier
 Cavalry
 #ANIMNAME_PRTO_Shock_Cavalry
@@ -2114,6 +2117,8 @@ Guard_Infantry
 Nap_Infantry
 #ANIMNAME_PRTO_Indelta
 Musketman
+#ANIMNAME_PRTO_Royal_Marine
+1812 British Marine
 
 ################################################################
 # Era-Specific Unit icons
