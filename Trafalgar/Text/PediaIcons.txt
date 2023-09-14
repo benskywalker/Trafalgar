@@ -732,8 +732,8 @@ art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
 art\civilopedia\icons\units\X2_NapoleonicInfantry_lg.pcx
 art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
 #ICON_PRTO_Redcoat
-art\civilopedia\icons\units\X2_NapoleonicInfantry_lg.pcx
-art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
+art\civilopedia\icons\units\1790_Royal_Redcoat-large2.pcx
+art\civilopedia\icons\units\1790_Royal_Redcoat-small.pcx
 #ICON_PRTO_Voltigeur
 art\civilopedia\icons\units\X2_NapoleonicInfantry_lg.pcx
 art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
@@ -741,8 +741,8 @@ art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
 art\civilopedia\icons\units\X2_Guard_Infantry-large.pcx
 art\civilopedia\icons\units\X2_Guard_Infantry-small.pcx
 #ICON_PRTO_Lifeguard
-art\civilopedia\icons\units\X2_Guard_Infantry-large.pcx
-art\civilopedia\icons\units\X2_Guard_Infantry-small.pcx
+art\civilopedia\icons\units\1812_British_Foot_Guard-large.pcx
+art\civilopedia\icons\units\1812_British_Foot_Guard-small.pcx
 #ICON_PRTO_Guard
 art\civilopedia\icons\units\X2_Guard_Infantry-large.pcx
 art\civilopedia\icons\units\X2_Guard_Infantry-small.pcx
@@ -2026,7 +2026,7 @@ Trebuchet
 #ANIMNAME_PRTO_Voltigeur
 Nap_Infantry
 #ANIMNAME_PRTO_Redcoat
-Nap_Infantry
+1790 Royal Redcoat
 #ANIMNAME_PRTO_Jaeger
 Nap_Infantry
 #ANIMNAME_PRTO_Fusilier
@@ -2048,7 +2048,7 @@ Grand_Battery
 #ANIMNAME_PRTO_Imperial_Guard
 Guard_Infantry
 #ANIMNAME_PRTO_Lifeguard
-Guard_Infantry
+1812 British Foot Guard
 #ANIMNAME_PRTO_Guard
 Guard_Infantry
 #ANIMNAME_PRTO_Janissary
