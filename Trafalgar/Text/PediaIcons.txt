@@ -811,9 +811,9 @@ art\civilopedia\icons\units\17cavalrysmall.pcx
 #ICON_PRTO_Lancer
 art\civilopedia\icons\units\17cavalrylarge.pcx
 art\civilopedia\icons\units\17cavalrysmall.pcx
-#ICON_PRTO_Chasseur
-art\civilopedia\icons\units\17cavalrylarge.pcx
-art\civilopedia\icons\units\17cavalrysmall.pcx
+#ICON_PRTO_Uhlan
+art\civilopedia\icons\units\1812_French_Uhlan-large.pcx
+art\civilopedia\icons\units\1812_French_Uhlan-small.pcx
 #ICON_PRTO_Landwehr
 art\civilopedia\icons\units\17cavalrylarge.pcx
 art\civilopedia\icons\units\17cavalrysmall.pcx
@@ -2088,8 +2088,8 @@ Cavalry
 Cavalry
 #ANIMNAME_PRTO_Horse_Guards
 Cavalry
-#ANIMNAME_PRTO_Chasseur
-Cavalry
+#ANIMNAME_PRTO_Uhlan
+1812_French_Uhlan
 #ANIMNAME_PRTO_Akinci
 Cavalry
 #ANIMNAME_PRTO_Landwehr
