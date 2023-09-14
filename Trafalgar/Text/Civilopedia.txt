@@ -1040,6 +1040,20 @@ Resource=GCON_ResourcesS> box to build a Uhlan.
 ^
 ^Danish Horse Guards served a ceremonial and defensive role, but also fought as typical $LINK<Cuirassiers=PRTO_Cuirassier>.
 
+#PRTO_Camel_Corps
+^
+^
+^[Camel Corps] are fast and powerful Egyptian Cavalry,drawn from the local populace. They are powerful on attack but lack defense. They will [withdraw] from
+combat if they are losing (unless fighting another fast unit).
+^The $LINK<Pyramids=BLDG_Pyramids> in Cairo produces a [Camel Corps] every 10 turns.
+^
+^To represent its extra training and skill, this unit receives an additional Hit Point
+on its Health Bar.
+#DESC_PRTO_Camel_Corps
+^
+^
+^The Camel Corps were Napoleonic cavalry he recruited while in Egypt.
+
 ;   ____________________________________________GUNPOWDER FOOT UNITS_____________________________________________
 
 
