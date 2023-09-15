@@ -2100,7 +2100,7 @@ Ottoman Deli 18th C
 #ANIMNAME_PRTO_Carabinier
 1812 French Carabinier
 #ANIMNAME_PRTO_Dragoon
-Dragoon
+Generic 1812 Dragoon
 #ANIMNAME_PRTO_Royal_Dragoon
 1812 British Dragoon
 #ANIMNAME_PRTO_Horse_Grenadier
