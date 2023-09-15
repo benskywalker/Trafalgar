@@ -717,8 +717,8 @@ art\civilopedia\icons\units\x2_Trebuchet civpedia sm.pcx
 art\civilopedia\icons\units\1812SpanishLineInfantry-large.pcx
 art\civilopedia\icons\units\1812SpanishLineInfantry-small.pcx
 #ICON_PRTO_Sekhan
-art\civilopedia\icons\units\Bosnian_Frontiersman_Large.pcx
-art\civilopedia\icons\units\Bosnian_Frontiersman_Small.pcx
+art\civilopedia\icons\units\1812TurkishJanissary-large.pcx
+art\civilopedia\icons\units\1812TurkishJanissary-small.pcx
 #ICON_PRTO_Grenzer
 art\civilopedia\icons\units\1812AustrianGrenzer-large.pcx
 art\civilopedia\icons\units\1812AustrianGrenzer-small.pcx
@@ -2037,7 +2037,7 @@ Nap_Infantry
 #ANIMNAME_PRTO_Grenzer
 1812 Austrian Grenzer
 #ANIMNAME_PRTO_Sekhan
-Bosnian Frontiersman 18th C
+1812 Turkish Janissary
 #ANIMNAME_PRTO_Soldado
 1812 Spanish Line Infantry
 #ANIMNAME_PRTO_Imperial_Cavalry
