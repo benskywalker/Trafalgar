@@ -603,8 +603,8 @@ art\civilopedia\icons\units\21modernarmorsmall.pcx
 art\civilopedia\icons\units\22catapultlarge.pcx
 art\civilopedia\icons\units\22catapultsmall.pcx
 #ICON_PRTO_Cannon
-art\civilopedia\icons\units\23cannonlarge.pcx
-art\civilopedia\icons\units\23cannonsmall.pcx
+art\civilopedia\icons\units\Generic_Nap_Artillery-Large.pcx
+art\civilopedia\icons\units\Generic_Nap_Artillery-Small.pcx
 #ICON_PRTO_Artillery
 art\civilopedia\icons\units\24artillerylarge.pcx
 art\civilopedia\icons\units\24artillerysmall.pcx
@@ -693,8 +693,8 @@ art\civilopedia\icons\units\63englishmanowarsmall.pcx
 art\civilopedia\icons\units\65privateerlarge.pcx
 art\civilopedia\icons\units\65privateersmall.pcx
 #ICON_PRTO_Sipahi
-art\civilopedia\icons\units\x_sipahi civpedia lg.pcx
-art\civilopedia\icons\units\x_sipahi civpedia sm.pcx
+art\civilopedia\icons\units\1812TurkishSipahi-large.pcx
+art\civilopedia\icons\units\1812TurkishSipahi-small.pcx
 #ICON_PRTO_Libyan_Mercenary
 art\civilopedia\icons\units\x_Libyan Mercenary civpedia lg.pcx
 art\civilopedia\icons\units\x_Libyan Mercenary civpedia sm.pcx
@@ -702,14 +702,11 @@ art\civilopedia\icons\units\x_Libyan Mercenary civpedia sm.pcx
 art\civilopedia\icons\units\x_Medieval Infantry civpedia lg.pcx
 art\civilopedia\icons\units\x_Medieval Infantry civpedia sm.pcx
 #ICON_PRTO_Hussar
-art\civilopedia\icons\units\x2_Hussar civpedia lg.pcx
-art\civilopedia\icons\units\x2_Hussar civpedia sm.pcx
+art\civilopedia\icons\units\1812AustrianHussar-large.pcx
+art\civilopedia\icons\units\1812AustrianHussar-small.pcx
 #ICON_PRTO_Carrack
 art\civilopedia\icons\units\x2_carrack civpedia lg.pcx
 art\civilopedia\icons\units\x2_carrack civpedia sm.pcx
-#ICON_PRTO_Hussar
-art\civilopedia\icons\units\17cavalrylarge.pcx
-art\civilopedia\icons\units\17cavalrysmall.pcx
 #ICON_PRTO_Swiss_Mercenary
 art\civilopedia\icons\units\x2_SwissMerc civpedia lg.pcx
 art\civilopedia\icons\units\x2_SwissMerc civpedia sm.pcx
@@ -717,139 +714,145 @@ art\civilopedia\icons\units\x2_SwissMerc civpedia sm.pcx
 art\civilopedia\icons\units\x2_Trebuchet civpedia lg.pcx
 art\civilopedia\icons\units\x2_Trebuchet civpedia sm.pcx
 #ICON_PRTO_Soldado
-art\civilopedia\icons\units\X2_NapoleonicInfantry_lg.pcx
-art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
+art\civilopedia\icons\units\1812SpanishLineInfantry-large.pcx
+art\civilopedia\icons\units\1812SpanishLineInfantry-small.pcx
 #ICON_PRTO_Sekhan
-art\civilopedia\icons\units\X2_NapoleonicInfantry_lg.pcx
-art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
+art\civilopedia\icons\units\Bosnian_Frontiersman_Large.pcx
+art\civilopedia\icons\units\Bosnian_Frontiersman_Small.pcx
 #ICON_PRTO_Grenzer
-art\civilopedia\icons\units\X2_NapoleonicInfantry_lg.pcx
-art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
+art\civilopedia\icons\units\1812AustrianGrenzer-large.pcx
+art\civilopedia\icons\units\1812AustrianGrenzer-small.pcx
 #ICON_PRTO_Fusilier
-art\civilopedia\icons\units\X2_NapoleonicInfantry_lg.pcx
-art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
+art\civilopedia\icons\units\1812PrussianJager-large.pcx
+art\civilopedia\icons\units\1812PrussianJager-small.pcx
 #ICON_PRTO_Jaeger
 art\civilopedia\icons\units\X2_NapoleonicInfantry_lg.pcx
 art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
 #ICON_PRTO_Redcoat
-art\civilopedia\icons\units\X2_NapoleonicInfantry_lg.pcx
-art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
+art\civilopedia\icons\units\1790RoyalRedcoat-large2.pcx
+art\civilopedia\icons\units\1790RoyalRedcoat-small.pcx
 #ICON_PRTO_Voltigeur
-art\civilopedia\icons\units\X2_NapoleonicInfantry_lg.pcx
-art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
+art\civilopedia\icons\units\1812FrenchLineInfantry-large.pcx
+art\civilopedia\icons\units\1812FrenchLineInfantry-small.pcx
 #ICON_PRTO_Imperial_Guard
-art\civilopedia\icons\units\X2_Guard_Infantry-large.pcx
-art\civilopedia\icons\units\X2_Guard_Infantry-small.pcx
+art\civilopedia\icons\units\1812FrenchGuard-large.pcx
+art\civilopedia\icons\units\1812FrenchGuard-small.pcx
 #ICON_PRTO_Lifeguard
-art\civilopedia\icons\units\X2_Guard_Infantry-large.pcx
-art\civilopedia\icons\units\X2_Guard_Infantry-small.pcx
+art\civilopedia\icons\units\1812BritishFootGuard-large.pcx
+art\civilopedia\icons\units\1812BritishFootGuard-small.pcx
 #ICON_PRTO_Guard
 art\civilopedia\icons\units\X2_Guard_Infantry-large.pcx
 art\civilopedia\icons\units\X2_Guard_Infantry-small.pcx
 #ICON_PRTO_Janissary
-art\civilopedia\icons\units\X2_Guard_Infantry-large.pcx
-art\civilopedia\icons\units\X2_Guard_Infantry-small.pcx
+art\civilopedia\icons\units\1812TurkishJanissary-large.pcx
+art\civilopedia\icons\units\1812TurkishJanissary-small.pcx
 #ICON_PRTO_Grand_Battery
 art\civilopedia\icons\units\x2_Grandbattery civpedia lg.pcx
 art\civilopedia\icons\units\x2_Grandbattery civpedia sm.pcx
 #ICON_PRTO_Ship_of_the_Line
-art\civilopedia\icons\units\X2_ShipOfTheLine_lg.pcx
-art\civilopedia\icons\units\X2_ShipOfTheLine_sm.pcx
+art\civilopedia\icons\units\SOTLLarge.pcx
+art\civilopedia\icons\units\SOTLSmall.pcx
 #ICON_PRTO_Imperial_Cavalry
-art\civilopedia\icons\units\17cavalrylarge.pcx
-art\civilopedia\icons\units\17cavalrysmall.pcx
+art\civilopedia\icons\units\1812FrenchCuirassieur-large.pcx
+art\civilopedia\icons\units\1812FrenchCuirassieur-small.pcx
 #ICON_PRTO_Household_Cavalry
-art\civilopedia\icons\units\17cavalrylarge.pcx
-art\civilopedia\icons\units\17cavalrysmall.pcx
+art\civilopedia\icons\units\1812BritishRoyalGuard-large.pcx
+art\civilopedia\icons\units\1812BritishRoyalGuard-small.pcx
 #ICON_PRTO_Cuirassier
-art\civilopedia\icons\units\17cavalrylarge.pcx
-art\civilopedia\icons\units\17cavalrysmall.pcx
+art\civilopedia\icons\units\1812PrussianCuirassier-large.pcx
+art\civilopedia\icons\units\1812PrussianCuirassier-small.pcx
 
 
 #ICON_PRTO_Miquelet
-art\civilopedia\icons\units\X2_NapoleonicInfantry_lg.pcx
-art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
+art\civilopedia\icons\units\1812SpanishGrenadier-large.pcx
+art\civilopedia\icons\units\1812SpanishGrenadier-small.pcx
 #ICON_PRTO_Marine
 art\civilopedia\icons\units\X2_Guard_Infantry-large.pcx
 art\civilopedia\icons\units\X2_Guard_Infantry-small.pcx
 #ICON_PRTO_Cutter
-art\civilopedia\icons\units\32galleonlarge.pcx
-art\civilopedia\icons\units\32galleonsmall.pcx
+art\civilopedia\icons\units\FastGalleon_lg.pcx
+art\civilopedia\icons\units\FastGalleon_sm.pcx
 #ICON_PRTO_Sloop
-art\civilopedia\icons\units\30caravellarge.pcx
-art\civilopedia\icons\units\30caravelsmall.pcx
+art\civilopedia\icons\units\Sloop_LG.pcx
+art\civilopedia\icons\units\Sloog_SM.pcx
 #ICON_PRTO_Line_Infantry
 art\civilopedia\icons\units\X2_Guard_Infantry-large.pcx
 art\civilopedia\icons\units\X2_Guard_Infantry-small.pcx
 #ICON_PRTO_Nizam_I_Cedid
-art\civilopedia\icons\units\X2_Guard_Infantry-large.pcx
-art\civilopedia\icons\units\X2_Guard_Infantry-small.pcx
+art\civilopedia\icons\units\1812TurkishNizam-large.pcx
+art\civilopedia\icons\units\1812TurkishNizam-small.pcx
 #ICON_PRTO_Corsair
 art\civilopedia\icons\units\X2_Guard_Infantry-large.pcx
 art\civilopedia\icons\units\X2_Guard_Infantry-small.pcx
 #ICON_PRTO_Rocket_Artillery
-art\civilopedia\icons\units\x2_Grandbattery civpedia lg.pcx
-art\civilopedia\icons\units\x2_Grandbattery civpedia sm.pcx
+art\civilopedia\icons\units\British_Rocket_Team_lg.pcx
+art\civilopedia\icons\units\British_Rocket_Team_sm.pcx
 #ICON_PRTO_Howitzer
-art\civilopedia\icons\units\x2_Grandbattery civpedia lg.pcx
-art\civilopedia\icons\units\x2_Grandbattery civpedia sm.pcx
+art\civilopedia\icons\units\6incherhowitzer_LG.pcx
+art\civilopedia\icons\units\6incherhowitzer_SM.pcx
 #ICON_PRTO_Horse_Artillery
-art\civilopedia\icons\units\x2_Grandbattery civpedia lg.pcx
-art\civilopedia\icons\units\x2_Grandbattery civpedia sm.pcx
+art\civilopedia\icons\units\Generic_Nap_Horse_Artillery-Large.pcx
+art\civilopedia\icons\units\Generic_Nap_Horse_Artillery-Small.pcx
 #ICON_PRTO_Raider
-art\civilopedia\icons\units\31frigatelarge.pcx
-art\civilopedia\icons\units\31frigatesmall.pcx
+art\civilopedia\icons\units\frigate_lg.pcx
+art\civilopedia\icons\units\frigate_sm.pcx
 #ICON_PRTO_Gunboat
-art\civilopedia\icons\units\31frigatelarge.pcx
-art\civilopedia\icons\units\31frigatesmall.pcx
+art\civilopedia\icons\units\Brigantine_LG.pcx
+art\civilopedia\icons\units\Brigantine_SM.pcx
 #ICON_PRTO_Light_Lancer
 art\civilopedia\icons\units\17cavalrylarge.pcx
 art\civilopedia\icons\units\17cavalrysmall.pcx
 #ICON_PRTO_Akinci
-art\civilopedia\icons\units\17cavalrylarge.pcx
-art\civilopedia\icons\units\17cavalrysmall.pcx
+art\civilopedia\icons\units\OttomanDeli_18th_C_Lg.pcx
+art\civilopedia\icons\units\OttomanDeli_18th_C_Sm.pcx
 #ICON_PRTO_Lancer
-art\civilopedia\icons\units\17cavalrylarge.pcx
-art\civilopedia\icons\units\17cavalrysmall.pcx
-#ICON_PRTO_Chasseur
-art\civilopedia\icons\units\17cavalrylarge.pcx
-art\civilopedia\icons\units\17cavalrysmall.pcx
+art\civilopedia\icons\units\1812NaplesChevauleger-large.pcx
+art\civilopedia\icons\units\1812NaplesChevauleger-small.pcx
+#ICON_PRTO_Uhlan
+art\civilopedia\icons\units\1812FrenchUhlan-large.pcx
+art\civilopedia\icons\units\1812FrenchUhlan-small.pcx
 #ICON_PRTO_Landwehr
-art\civilopedia\icons\units\17cavalrylarge.pcx
-art\civilopedia\icons\units\17cavalrysmall.pcx
+art\civilopedia\icons\units\1812PrussianHussar-large.pcx
+art\civilopedia\icons\units\1812PrussianHussar-small.pcx
 #ICON_PRTO_Carabinier
-art\civilopedia\icons\units\17cavalrylarge.pcx
-art\civilopedia\icons\units\17cavalrysmall.pcx
+art\civilopedia\icons\units\1812FrenchCarabinier-large.pcx
+art\civilopedia\icons\units\1812FrenchCarabinier-small.pcx
 #ICON_PRTO_Horse_Grenadier
-art\civilopedia\icons\units\17cavalrylarge.pcx
-art\civilopedia\icons\units\17cavalrysmall.pcx
+art\civilopedia\icons\units\1812PrussianDragoon-Large.pcx
+art\civilopedia\icons\units\1812PrussianDragoon-Small.pcx
 #ICON_PRTO_Shock_Cavalry
-art\civilopedia\icons\units\17cavalrylarge.pcx
-art\civilopedia\icons\units\17cavalrysmall.pcx
+art\civilopedia\icons\units\Generic_Cuirassier_Large.pcx
+art\civilopedia\icons\units\Generic_Cuirassier_Small.pcx
 #ICON_PRTO_Dragoon
-art\civilopedia\icons\units\61russiancossacklarge.pcx
-art\civilopedia\icons\units\61russiancossacksmall.pcx
+art\civilopedia\icons\units\Dragoon_Large.pcx
+art\civilopedia\icons\units\Dragoon_Small.pcx
 #ICON_PRTO_Royal_Dragoon
-art\civilopedia\icons\units\61russiancossacklarge.pcx
-art\civilopedia\icons\units\61russiancossacksmall.pcx
+art\civilopedia\icons\units\1812BritishDragoon-large.pcx
+art\civilopedia\icons\units\1812BritishDragoon-small.pcx
 #ICON_PRTO_Hessian_Rifleman
-art\civilopedia\icons\units\16riflemanlarge.pcx
-art\civilopedia\icons\units\16riflemansmall.pcx
+art\civilopedia\icons\units\1812PrussianGuard-large.pcx
+art\civilopedia\icons\units\1812PrussianGuard-small.pcx
 #ICON_PRTO_Grenadier
-art\civilopedia\icons\units\X2_Guard_Infantry-large.pcx
-art\civilopedia\icons\units\X2_Guard_Infantry-small.pcx
+art\civilopedia\icons\units\1812AustrianGrenadier-large.pcx
+art\civilopedia\icons\units\1812AustrianGrenadier-small.pcx
 #ICON_PRTO_Horse_Guards
-art\civilopedia\icons\units\17cavalrylarge.pcx
-art\civilopedia\icons\units\17cavalrysmall.pcx
+art\civilopedia\icons\units\1812DanishLightDragoon-Large.pcx
+art\civilopedia\icons\units\1812DanishLightDragoon-Small.pcx
 #ICON_PRTO_Savolak
-art\civilopedia\icons\units\X2_Guard_Infantry-large.pcx
-art\civilopedia\icons\units\X2_Guard_Infantry-small.pcx
+art\civilopedia\icons\units\1812SwedishGuard-large.pcx
+art\civilopedia\icons\units\1812SwedishGuard-small.pcx
 #ICON_PRTO_Varvade
-art\civilopedia\icons\units\X2_NapoleonicInfantry_lg.pcx
-art\civilopedia\icons\units\X2_NapoleonicInfantry_sm.pcx
+art\civilopedia\icons\units\1812SwedishJager-Large.pcx
+art\civilopedia\icons\units\1812SwedishJager-Small.pcx
 #ICON_PRTO_Indelta
-art\civilopedia\icons\units\X2_Nap_Musket_lg.pcx
-art\civilopedia\icons\units\X2_Nap_Musket_sm.pcx
+art\civilopedia\icons\units\1812SwedishLineInfantry-Large.pcx
+art\civilopedia\icons\units\1812SwedishLineInfantry-Small.pcx
+#ICON_PRTO_Royal_Marine
+art\civilopedia\icons\units\1812BritishMarine-large.pcx
+art\civilopedia\icons\units\1812BritishMarine-small.pcx
+#ICON_PRTO_Camel_Corps
+art\civilopedia\icons\units\Napoleonic_Camel_Large_ALT.pcx
+art\civilopedia\icons\units\Napoleonic_Camel_Small_ALT.pcx
 
 #Start buildings
 #ICON_BLDG_Airport
@@ -1978,7 +1981,7 @@ Cavalry
 #ANIMNAME_PRTO_Catapult
 Catapult
 #ANIMNAME_PRTO_Cannon
-Cannon
+Generic Nap Foot Artillery
 #ANIMNAME_PRTO_Galley
 Galley
 #ANIMNAME_PRTO_Caravel
@@ -2012,11 +2015,11 @@ Man-O-War
 #ANIMNAME_PRTO_Privateer
 Privateer
 #ANIMNAME_PRTO_Sipahi
-Sipahi
+1812 Turkish Sipahi
 #ANIMNAME_PRTO_Medieval_Infantry
 Medieval Infantry
 #ANIMNAME_PRTO_Hussar
-Hussar
+1812 Austrian Hussar
 #ANIMNAME_PRTO_Carrack
 Carrack
 #ANIMNAME_PRTO_Swiss_Mercenary
@@ -2024,96 +2027,100 @@ Swiss Mercenary
 #ANIMNAME_PRTO_Trebuchet
 Trebuchet
 #ANIMNAME_PRTO_Voltigeur
-Nap_Infantry
+1812 French Line Infantry
 #ANIMNAME_PRTO_Redcoat
-Nap_Infantry
+1790 Royal Redcoat
 #ANIMNAME_PRTO_Jaeger
 Nap_Infantry
 #ANIMNAME_PRTO_Fusilier
-Nap_Infantry
+1812 Prussian Jager
 #ANIMNAME_PRTO_Grenzer
-Nap_Infantry
+1812 Austrian Grenzer
 #ANIMNAME_PRTO_Sekhan
-Nap_Infantry
+Bosnian Frontiersman 18th C
 #ANIMNAME_PRTO_Soldado
-Nap_Infantry
+1812 Spanish Line Infantry
 #ANIMNAME_PRTO_Imperial_Cavalry
-Cavalry
+1812 French Cuirassier
 #ANIMNAME_PRTO_Household_Cavalry
-Cavalry
+1812 British Horse Guard
 #ANIMNAME_PRTO_Cuirassier
-Cavalry
+1812 Prussian Cuirassier
 #ANIMNAME_PRTO_Grand_Battery
 Grand_Battery
 #ANIMNAME_PRTO_Imperial_Guard
-Guard_Infantry
+1812 French Guard
 #ANIMNAME_PRTO_Lifeguard
-Guard_Infantry
+1812 British Foot Guard
 #ANIMNAME_PRTO_Guard
 Guard_Infantry
 #ANIMNAME_PRTO_Janissary
-Guard_Infantry
+1812 Turkish Janissary
 #ANIMNAME_PRTO_Cossack
 Cossack
 #ANIMNAME_PRTO_Ship_of_the_Line
 Ship_of_the_Line
 
 #ANIMNAME_PRTO_Miquelet
-Rifleman
+1812 Spanish Grenadier
 #ANIMNAME_PRTO_Marine
 Guard_Infantry
 #ANIMNAME_PRTO_Nizam_I_Cedid
-Guard_Infantry
+1812 Turkish Nizam
 #ANIMNAME_PRTO_Grenadier
-Guard_Infantry
+1812 Austrian Grenadier
 #ANIMNAME_PRTO_Cutter
-Galleon
+Fast Galleon
 #ANIMNAME_PRTO_Sloop
-Caravel
+Sloop
 #ANIMNAME_PRTO_Line_Infantry
 Guard_Infantry
 #ANIMNAME_PRTO_Rocket_Artillery
-Grand_Battery
+British Rocket Team
 #ANIMNAME_PRTO_Howitzer
-Grand_Battery
+6inch Howitzer
 #ANIMNAME_PRTO_Horse_Artillery
-Grand_Battery
+Generic Nap Horse Artillery
 #ANIMNAME_PRTO_Raider
-Frigate
+Raider_Frigate
 #ANIMNAME_PRTO_Gunboat
-Frigate
+Brigantine
 #ANIMNAME_PRTO_Light_Lancer
 Cavalry
 #ANIMNAME_PRTO_Lancer
-Cavalry
+1812 Neapolitan Chevauleger
 #ANIMNAME_PRTO_Horse_Guards
-Cavalry
-#ANIMNAME_PRTO_Chasseur
-Cavalry
+1812 Danish Light Dragoon
+#ANIMNAME_PRTO_Uhlan
+1812 French Uhlan
 #ANIMNAME_PRTO_Akinci
-Cavalry
+Ottoman Deli 18th C
 #ANIMNAME_PRTO_Landwehr
-Cavalry
+Prussian Hussar
 #ANIMNAME_PRTO_Carabinier
-Cavalry
+1812 French Carabinier
 #ANIMNAME_PRTO_Dragoon
-Cossack
+Dragoon
 #ANIMNAME_PRTO_Royal_Dragoon
-Cossack
+1812 British Dragoon
 #ANIMNAME_PRTO_Horse_Grenadier
-Cavalry
+1812 Prussian Dragoon
 #ANIMNAME_PRTO_Shock_Cavalry
-Cavalry
+1812 Generic Cuirassier
 #ANIMNAME_PRTO_Hessian_Rifleman
-Rifleman
+1812 Prussian Guard
 #ANIMNAME_PRTO_Corsair
 Guard_Infantry
 #ANIMNAME_PRTO_Savolak
-Guard_Infantry
+1812 Swedish Guard
 #ANIMNAME_PRTO_Varvade
-Nap_Infantry
+1812 Swedish Jager
 #ANIMNAME_PRTO_Indelta
-Musketman
+1812 Swedish Line Infantry
+#ANIMNAME_PRTO_Royal_Marine
+1812 British Marine
+#ANIMNAME_PRTO_Camel_Corps
+Napoleonic Camel
 
 ################################################################
 # Era-Specific Unit icons
