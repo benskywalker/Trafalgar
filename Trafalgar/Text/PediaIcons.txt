@@ -603,8 +603,8 @@ art\civilopedia\icons\units\21modernarmorsmall.pcx
 art\civilopedia\icons\units\22catapultlarge.pcx
 art\civilopedia\icons\units\22catapultsmall.pcx
 #ICON_PRTO_Cannon
-art\civilopedia\icons\units\Generic_Nap_Artillery-Large.pcx
-art\civilopedia\icons\units\Generic_Nap_Artillery-Small.pcx
+art\civilopedia\icons\units\Generic_Nap_Artillery_LG.pcx
+art\civilopedia\icons\units\Generic_Nap_Artillery_SM.pcx
 #ICON_PRTO_Artillery
 art\civilopedia\icons\units\24artillerylarge.pcx
 art\civilopedia\icons\units\24artillerysmall.pcx
@@ -753,8 +753,8 @@ art\civilopedia\icons\units\x2_Grandbattery civpedia sm.pcx
 art\civilopedia\icons\units\SOTLLarge.pcx
 art\civilopedia\icons\units\SOTLSmall.pcx
 #ICON_PRTO_Imperial_Cavalry
-art\civilopedia\icons\units\1812FrenchCuirassieur-large.pcx
-art\civilopedia\icons\units\1812FrenchCuirassieur-small.pcx
+art\civilopedia\icons\units\1812FrenchCuirassier-large.pcx
+art\civilopedia\icons\units\1812FrenchCuirassier-small.pcx
 #ICON_PRTO_Household_Cavalry
 art\civilopedia\icons\units\1812BritishRoyalGuard-large.pcx
 art\civilopedia\icons\units\1812BritishRoyalGuard-small.pcx
@@ -791,8 +791,8 @@ art\civilopedia\icons\units\British_Rocket_Team_sm.pcx
 art\civilopedia\icons\units\6incherhowitzer_LG.pcx
 art\civilopedia\icons\units\6incherhowitzer_SM.pcx
 #ICON_PRTO_Horse_Artillery
-art\civilopedia\icons\units\Generic_Nap_Horse_Artillery-Large.pcx
-art\civilopedia\icons\units\Generic_Nap_Horse_Artillery-Small.pcx
+art\civilopedia\icons\units\Generic_Nap_Horse_Artillery_LG.pcx
+art\civilopedia\icons\units\Generic_Nap_Horse_Artillery_SM.pcx
 #ICON_PRTO_Raider
 art\civilopedia\icons\units\frigate_lg.pcx
 art\civilopedia\icons\units\frigate_sm.pcx
