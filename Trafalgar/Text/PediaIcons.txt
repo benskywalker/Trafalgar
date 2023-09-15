@@ -2096,7 +2096,7 @@ Cavalry
 #ANIMNAME_PRTO_Akinci
 Ottoman Deli 18th C
 #ANIMNAME_PRTO_Landwehr
-Prussian Hussar
+1812 Prussian Hussar
 #ANIMNAME_PRTO_Carabinier
 1812 French Carabinier
 #ANIMNAME_PRTO_Dragoon
