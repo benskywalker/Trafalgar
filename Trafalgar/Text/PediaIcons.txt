@@ -766,6 +766,9 @@ art\civilopedia\icons\units\1812PrussianCuirassier-small.pcx
 #ICON_PRTO_Miquelet
 art\civilopedia\icons\units\1812SpanishGrenadier-large.pcx
 art\civilopedia\icons\units\1812SpanishGrenadier-small.pcx
+#ICON_PRTO_Cacador
+art\civilopedia\icons\units\1812SpanishGrenadier-large.pcx
+art\civilopedia\icons\units\1812SpanishGrenadier-small.pcx
 #ICON_PRTO_Marine
 art\civilopedia\icons\units\X2_Guard_Infantry-large.pcx
 art\civilopedia\icons\units\X2_Guard_Infantry-small.pcx
@@ -2062,6 +2065,8 @@ Cossack
 Ship_of_the_Line
 
 #ANIMNAME_PRTO_Miquelet
+1812 Spanish Grenadier
+#ANIMNAME_PRTO_Cacador
 1812 Spanish Grenadier
 #ANIMNAME_PRTO_Marine
 Guard_Infantry
