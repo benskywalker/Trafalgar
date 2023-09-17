@@ -530,6 +530,12 @@ art\civilopedia\icons\resources\wheatsmall.pcx
 #ICON_GOOD_Wine
 art\civilopedia\icons\resources\winelarge.pcx
 art\civilopedia\icons\resources\winesmall.pcx
+#ICON_GOOD_Wool
+art\civilopedia\icons\resources\horselarge.pcx
+art\civilopedia\icons\resources\horsesmall.pcx
+#ICON_GOOD_Cotton
+art\civilopedia\icons\resources\wheatlarge.pcx
+art\civilopedia\icons\resources\wheatsmall.pcx
 #End Resources
 
 #start units
