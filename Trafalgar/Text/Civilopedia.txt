@@ -1273,6 +1273,16 @@ most armies of the time used a "battleline" composed of two ranks (parallel line
 had been recently invented (and were in used in limited numbers by some armies), Napoleon opted not to use them due to
 their longer reload times.
 
+
+#PRTO_Cacador
+^
+^
+^[Cacadores] are Portuguese [Rangers] with elite training and high mobility. They can serve as scouts or reinforcements in attacks.
+#DESC_PRTO_Cacador
+^
+^
+^Cacadores were well-trained light infantry from Portugal. Cacador translates to "hunter".
+
 #PRTO_Marine
 ^
 ^
@@ -1816,18 +1826,35 @@ Nelson, whose name still today is synonymous with the British Navy.
 
 ; RESOURCES_______________________________________________________________________________________________RESOURCES
 
-
+; _____________________________________________Bonus Resources_______________________________________________
+#GOOD_Cotton
+^
+^
+^[Cotton] is an industrial era resource used for factories. It boosts production.
+^
+#DESC_GOOD_Cotton
+^
+^
+^Cotton is a white crop used for textile manufacturing.
+#GOOD_Wool
+^
+^
+^[Wool] is an industrial era resource used for clothing. It boosts production.
+^
+#DESC_GOOD_Wool
+^
+^
+^Wool is derived from sheep, found in hilly areas.
 ; _____________________________________________Strategic Resources___________________________________________
 #GOOD_Coal
 ^
 ^
-^[Coal] is not used in this scenario. It is listed here as a "dummy resource"
-only to hide unnecessary worker functions. 
+^[Coal] is an industrial era resource used for factories. It boosts production.
 ^
 #DESC_GOOD_Coal
 ^
 ^
-^Coal is a crumbly, black rock usually found buried deep under ground. What use could there possibly be for it?
+^Coal is a crumbly, black rock usually found buried deep under ground.
 
 
 
@@ -2458,7 +2485,7 @@ with its Nazi past; its churches and universities are among Europe's most presti
 
 
 #RACE_PORTUGAL
-^The Portuguese are $LINK<commercial and religious=GCON_Strengths>, and have access to the Iberian $LINK<Miquelet=PRTO_Miquelet> unit.
+^The Portuguese are $LINK<commercial and religious=GCON_Strengths>, and have access to the Iberian $LINK<Cacadores=PRTO_Cacador> rangers.
 ^
 ^
 ^In 1139 CE, Afonse Henriques, appointed count of the province of Portugal by the king of Castile, defeated a
